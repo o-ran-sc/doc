@@ -1,3 +1,4 @@
-# UUID                                                   	Group Name
+# UUID                                                              	Group Name
 #
-ldap:cn=oran-gerrit-doc,ou=Groups,dc=freestandards,dc=org	ldap/oran-gerrit-doc
+ldap:cn=oran-gerrit-doc,ou=Groups,dc=freestandards,dc=org           	ldap/oran-gerrit-doc
+ldap:cn=oran-gerrit-doc-committers,ou=Groups,dc=freestandards,dc=org	ldap/oran-gerrit-doc-committers
