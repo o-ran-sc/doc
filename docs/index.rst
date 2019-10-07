@@ -20,6 +20,7 @@ Guides:
    :maxdepth: 1
 
    bar
+   * :doc:`RIC Overview <ric:index>`
 
 
 Indices and tables
