@@ -20,7 +20,10 @@ Guides:
    :maxdepth: 1
 
    bar
-   * :doc:`RIC Overview <portal-ric-dashboard:index>`
+
+
+
+* :doc:`RIC Overview <portal-ric-dashboard:index>`
 
 
 Indices and tables
