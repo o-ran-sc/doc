@@ -23,7 +23,7 @@ Guides:
 
 
 
-* :doc:`RIC Overview <portal-ric-dashboard:index>`
+* :doc:`RIC Dashboard <portal-ric-dashboard:index>`
 
 
 Indices and tables
