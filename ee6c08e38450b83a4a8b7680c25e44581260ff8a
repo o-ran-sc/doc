@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6e15a5bb_a812f90b",
+        "filename": "docs/conf.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1000089
+      },
+      "writtenOn": "2019-10-31T15:38:28Z",
+      "side": 1,
+      "message": "This is the doc project, so we dont need to do \u0027intersphinx\u0027 mapping to it.\nAs new projects are added, we will need to create entries for them.",
+      "range": {
+        "startLine": 10,
+        "startChar": 0,
+        "endLine": 10,
+        "endChar": 111
+      },
+      "revId": "ee6c08e38450b83a4a8b7680c25e44581260ff8a",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53",
+      "unresolved": true
+    }
+  ]
+}
