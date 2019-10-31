@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "99e643b4_dd7c6223",
+        "filename": "docs/index.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1000014
+      },
+      "writtenOn": "2019-10-31T13:51:46Z",
+      "side": 1,
+      "message": "Please make the underline the same length as the text.  This is a warning, but the verify job will probably treat it as an error and fail the job.\n\nAlso please use the plural form: \"Components\"",
+      "range": {
+        "startLine": 34,
+        "startChar": 0,
+        "endLine": 34,
+        "endChar": 1
+      },
+      "revId": "7046a7cafc2385889e1b501b1fe861c11600e182",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53",
+      "unresolved": true
+    }
+  ]
+}
