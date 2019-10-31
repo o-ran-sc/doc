@@ -28,7 +28,10 @@ intelligent 5G RAN.
 Please find some guidance here on the content of O-RAN SC
 documentation.
 
-Guides:
+
+
+O-RAN SC components
+===================
 
 .. toctree::
    :maxdepth: 1
