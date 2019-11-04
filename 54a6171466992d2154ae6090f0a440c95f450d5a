@@ -22,6 +22,30 @@
       "revId": "54a6171466992d2154ae6090f0a440c95f450d5a",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53",
       "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "1f1cb05e_8c7cd64f",
+        "filename": "docs/index.rst",
+        "patchSetId": 3
+      },
+      "lineNbr": 39,
+      "author": {
+        "id": 1000067
+      },
+      "writtenOn": "2019-11-04T13:37:47Z",
+      "side": 1,
+      "message": "removed, please check",
+      "parentUuid": "4a716758_5f9b640d",
+      "range": {
+        "startLine": 39,
+        "startChar": 3,
+        "endLine": 39,
+        "endChar": 6
+      },
+      "revId": "54a6171466992d2154ae6090f0a440c95f450d5a",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53",
+      "unresolved": true
     }
   ]
 }
