@@ -5,18 +5,16 @@
    :depth: 3
    :local:
 
-========
+Installation guide
+==================
+
 Abstract
-========
+--------
 
 This document describes how to install <Component>, it's dependencies and required system resources.
 
-.. contents::
-   :depth: 3
-   :local:
 
 Version history
----------------------
 
 +--------------------+--------------------+--------------------+--------------------+
 | **Date**           | **Ver.**           | **Author**         | **Comment**        |
@@ -35,7 +33,8 @@ Version history
 
 
 Introduction
-============
+------------
+
 .. <INTRODUCTION TO THE SCOPE AND INTENTION OF THIS DOCUMENT AS WELL AS TO THE SYSTEM TO BE INSTALLED>
 
 .<EXAMPLE>:
@@ -46,7 +45,7 @@ The audience of this document is assumed to have good knowledge in RAN network n
 
 
 Preface
-=======
+-------
 .. <DESCRIBE NEEDED PREREQUISITES, PLANNING, ETC.>
 
 <EXAMPLE>:
@@ -57,7 +56,7 @@ Before starting the installation of <project name>, some planning must preceed.
 
 
 Hardware requirements
-=====================
+---------------------
 .. <PROVIDE A LIST OF MINIMUM HARDWARE REQUIREMENTS NEEDED FOR THE INSTALL>
 
 <EXAMPLE>:
@@ -89,10 +88,8 @@ Following minimum hardware requirements must be met for installation of <project
 
 
 
-
-
 Software installation and deployment
-==========================================
+------------------------------------
 .. <DESCRIBE THE FULL PROCEDURES FOR THE INSTALLATION OF THE O-RAN COMPONENT INSTALLATION AND DEPLOYMENT>
 
 <EXAMPLE>:
@@ -102,12 +99,9 @@ This section describes the installation of the <project name> installation on th
 
 
 References
-==========
+----------
 .. <PROVIDE NEEDED/USEFUL REFERENCES>
 
-<EXAMPLES>:
 
-OpenStack
-^^^^^^^^^^^
 
 

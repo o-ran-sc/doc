@@ -2,6 +2,10 @@
 .. http://creativecommons.org/licenses/by/4.0
 .. (c) <optionally add copywriters name>
 
+
+user guide
+==========
+
 .. contents::
    :depth: 3
    :local:
@@ -11,13 +15,13 @@
 
 
 Description
-=====================
+-----------
 .. Describe the traget users of the projcet, for example, modeler/data scientist, ORAN-OSC platform admin, marketplace user, design studio end user, etc
 .. Descirbe how the target users can get use of a O-RAN SC component.
 .. If the guide contains sections on third-party tools, is it clearly stated why the O-RAN-OSC platform is using those tools? Are there instructions on how to install and configure each tool/toolset?
 
 Feature introduction
-================================
+--------------------
 .. Provide enough information that a user will be able to operate the feature on a deployed scenario. content can be added from administration, management, using, Troubleshooting sections perspectives.
 
 

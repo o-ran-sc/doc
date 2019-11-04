@@ -1,0 +1,120 @@
+This README.txt file is a tutorial of how to create repo documentation.
+This is a copy&paste solution of documentation, and there is a step-by-step tutorial of creating documentation on https://wiki.o-ran-sc.org/display/DOC. Both solution work, your can choose a way you prefer.
+
+
+Tutorial starts here.
+
+Assuming you already git clone doc repo in your local system.
+
+Step 1:
+
+Copy all files in doc/doc-templates/ to your local directory, your_repo/docs/, 
+
+Note: replace your_repo with the repo name you are working on.
+
+
+Step 2:
+Move 'tox.ini' & '.readthedocs.yaml' in doc/docs/repo-root-dir-files/ to your_repo/
+
+Note: 1. replace your_repo with the repo name you are working on.
+      2. '.readthedocs.yaml' is not visible by 'ls' or 'll' command, please double check after moving. Better try 'vi .readthedocs.yaml' to check
+
+
+Step 3:
+
+Choose templates you will have from [api-docs.rst,developer-guide.rst,installation-guide.rst,release-notes.rst,user-guide.rst] for documentation, and finish editing them.
+
+Note: 1. If your don't need any of them, just simply delete the one you do not need. 
+      2. Teamplates just provide a guideline for documentation. If you have any specific request, please feel free do it yourself.
+
+
+Step 4:
+Editing index.rst. There is a scetion including what rst files your will have in your repo documentaion, something like following:
+
+#############
+example start
+#############
+
+Welcome to O-RAN SC your_repo Documentation
+===========================================
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   overview.rst
+   developer-guide.rst
+   release-notes.rst
+   installation-guide.rst
+   user-guide.rst
+   api-docs.rst
+
+
+.. toctree::
+   :maxdepth: 2
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+
+############
+example ends
+############
+
+Overview.rst is required for each repo while others are optional. Please delete the line (rst files line) you do not need.
+For example if you donot need api-docs:
+
+
+#############
+example start
+#############
+
+Welcome to O-RAN SC your_repo Documentation
+===========================================
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   overview.rst
+   developer-guide.rst
+   release-notes.rst
+   installation-guide.rst
+   user-guide.rst
+
+
+.. toctree::
+   :maxdepth: 2
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
+
+############
+example ends
+############
+
+
+Step 5
+Editing overview.rst, there is instruction in the file.
+
+
+Step 6:
+Testing your documentation by running 'tox -e docs,docs-linkcheck' command.
+If everything correct, you can open your_repo/docs/_build/html/index.html to see it locally.
+
+Step 7:
+upload your documentaion patch
+
+
+
+
+
+
+
+
+
