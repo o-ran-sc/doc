@@ -5,7 +5,6 @@
 Welcome to O-RAN SC your_repo Documentation
 ===========================================
 
-
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -18,8 +17,6 @@ Welcome to O-RAN SC your_repo Documentation
    api-docs.rst
 
 
-.. toctree::
-   :maxdepth: 2
 
 * :ref:`genindex`
 * :ref:`modindex`

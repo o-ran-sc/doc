@@ -1,12 +1,14 @@
 .. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. http://creativecommons.org/licenses/by/4.0
 
+
+
+Installation Guide
+==================
+
 .. contents::
    :depth: 3
    :local:
-
-Installation guide
-==================
 
 Abstract
 --------
@@ -55,7 +57,7 @@ Before starting the installation of <project name>, some planning must preceed.
 .. note:any preperation you need before setting up sotfware and hardware 
 
 
-Hardware requirements
+Hardware Requirements
 ---------------------
 .. <PROVIDE A LIST OF MINIMUM HARDWARE REQUIREMENTS NEEDED FOR THE INSTALL>
 
@@ -88,7 +90,7 @@ Following minimum hardware requirements must be met for installation of <project
 
 
 
-Software installation and deployment
+Software Installation and Deployment
 ------------------------------------
 .. <DESCRIBE THE FULL PROCEDURES FOR THE INSTALLATION OF THE O-RAN COMPONENT INSTALLATION AND DEPLOYMENT>
 

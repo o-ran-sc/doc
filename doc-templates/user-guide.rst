@@ -3,8 +3,10 @@
 .. (c) <optionally add copywriters name>
 
 
-user guide
+User Guide
 ==========
+
+This is the user guide of OSC <COMPONENT>.
 
 .. contents::
    :depth: 3
@@ -20,7 +22,7 @@ Description
 .. Descirbe how the target users can get use of a O-RAN SC component.
 .. If the guide contains sections on third-party tools, is it clearly stated why the O-RAN-OSC platform is using those tools? Are there instructions on how to install and configure each tool/toolset?
 
-Feature introduction
+Feature Introduction
 --------------------
 .. Provide enough information that a user will be able to operate the feature on a deployed scenario. content can be added from administration, management, using, Troubleshooting sections perspectives.
 
