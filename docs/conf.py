@@ -8,3 +8,4 @@ linkcheck_ignore = [
 
 intersphinx_mapping = {}
 intersphinx_mapping['portal-ric-dashboard'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-portal-ric-dashboard/en/%s' % branch, None)
+intersphinx_mapping['ric-app-ml'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-ml/en/%s' % branch, None)
