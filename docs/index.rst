@@ -40,6 +40,7 @@ O-RAN SC components
 
 
 * :doc:`RIC Dashboard <portal-ric-dashboard:index>`
+* :doc:`Integration Development for xApps <it-dev:index>`
 
 
 Indices and tables
