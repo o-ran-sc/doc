@@ -8,11 +8,12 @@ linkcheck_ignore = [
 
 intersphinx_mapping = {}
 
+#(near realtime)RIC app
 intersphinx_mapping['ric-app-mc'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-mc/en/%s' % branch, None)
 intersphinx_mapping['ric-app-ml'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-ml/en/%s' % branch, None)
 #intersphinx_mapping['ric-app-admin'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-admin/en/%s' % branch, None)
 
-
+#(near realtime)RIC platform
 intersphinx_mapping['com-log'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-log/en/%s' % branch, None)
 intersphinx_mapping['com-golog'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-golog/en/%s' % branch, None)
 intersphinx_mapping['com-pylog'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-pylog/en/%s' % branch, None)
@@ -28,18 +29,28 @@ intersphinx_mapping['ric-plt-tracelibgo'] = ('https://docs.o-ran-sc.org/projects
 intersphinx_mapping['ric-plt-vespamgr'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-vespamgr/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-asn1-documents'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-asn1-documents/en/%s' % branch, None)
 
-#intersphinx_mapping['ric-plt-nonrtric'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-nonrtric/en/%s' % branch, None)
+#nonrt ric
+intersphinx_mapping['ric-plt-nonrtric'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-nonrtric/en/%s' % branch, None)
 
+#OAM
 intersphinx_mapping['portal-ric-dashboard'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-portal-ric-dashboard/en/%s' % branch, None)
 
-
-
+#OCU
 intersphinx_mapping['scp-ocu-openlte'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-scp-ocu-openlte/en/%s' % branch, None)
 
+#ODUHIGH
+
+
+#ODULOW
+
+
+#INF
 intersphinx_mapping['pti-rtp'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-pti-rtp/en/%s' % branch, None)
 
+#SIM
 intersphinx_mapping['sim-o1-interface'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-sim-o1-interface/en/%s' % branch, None)
 
+#INT
 intersphinx_mapping['it-dep'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-it-dep/en/%s' % branch, None)
 intersphinx_mapping['it-dev'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-it-dev/en/%s' % branch, None)
 intersphinx_mapping['it-test'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-it-test/en/%s' % branch, None)
