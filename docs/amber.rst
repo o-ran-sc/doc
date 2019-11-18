@@ -13,6 +13,9 @@ O-RAN SC Amber Release Project
 ----------------------
 * :doc:`RIC Measurement Campaign (MC) xApp <ric-app-mc:index>`
 * :doc:`RIC APP ML <ric-app-mc:index>`
+* :doc:`GS-lite Stream Processing Engine <com-gs-lite:index>`
+
+
 
 (Near Realtime) RIC Platform
 ----------------------------
@@ -31,6 +34,7 @@ O-RAN SC Amber Release Project
 * :doc:`Tracelibgo <ric-plt-tracelibgo:index>`
 * :doc:`Vespamgr <ric-plt-vespamgr:index>`
 * :doc:`ASN.1 Documents <ric-plt-asn1-documents:index>`
+* :doc:`Streaming Protobufs <ric-plt-streaming-protobufs:index>`
 
 
 NONRTRIC
@@ -63,13 +67,18 @@ INF
 
 SIM
 ---
-* :doc:`sim/o1-interface <sim-o1-interface:index>`
+* :doc:`SIM/O1-Interface <sim-o1-interface:index>`
 
 
 INT
 ---
-* :doc:`it-otf<it-otf:index>`
-* :doc:`it-otf<it-otf:index>`
-* :doc:`it-otf<it-otf:index>`
-* :doc:`it-otf<it-otf:index>`
+* :doc:`IT-Dep<it-dep:index>`
+* :doc:`IT-Test<it-test:index>`
+* :doc:`IT-Dev<it-dev:index>`
+* :doc:`IT-Otf<it-otf:index>`
+
+
+
+
+
 
