@@ -8,17 +8,21 @@
 O-RAN SC Amber Release Project
 ==============================
 
+RAN Intelligent Controller Applications (RICAPP)
+------------------------------------------------
+RICAPP includes open source sample xAPPs and platform applications that can we used for integration, testing, and demonstrations.
 
-(Near Realtime) RICAPP
-----------------------
+More detailed function documentation can be found as follow:
+
 * :doc:`RIC Measurement Campaign (MC) xApp <ric-app-mc:index>`
 * :doc:`RIC APP ML <ric-app-mc:index>`
 * :doc:`GS-lite Stream Processing Engine <com-gs-lite:index>`
 
+Near Realtime RAN Intelligent Controller (RIC)
+----------------------------------------------
+This project a initial RIC Platform to support xAPPs with limited support for O1, A1, and E2 interfaces.
 
-
-(Near Realtime) RIC Platform
-----------------------------
+More detailed function documentation can be found as follow:
 
 * :doc:`LOG <com-log:index>`
 * :doc:`GOLOG <com-golog:index>`
@@ -37,46 +41,77 @@ O-RAN SC Amber Release Project
 * :doc:`Streaming Protobufs <ric-plt-streaming-protobufs:index>`
 
 
-NONRTRIC
---------
-* :doc:`Non-RT RICi <nonrtric:index>`
+Non-RealTime RAN Intelligent Controller (NONRTRIC)
+--------------------------------------------------
+Non-realtime RIC focus on feature functionality of A1-interface (consumer and provider), and closed-loop use cases. The NONRTRIC project will also work together with the OAM project to align activities on a case-by-case based for O1 interfaces. Project should focus on use cases supported in ONAP. The work should be sponsored in O-RAN and initial code contributions in O-RAN SC. Interoperability with ONAP should be aligned between the standards and will follow initial contributions in this project. 
+
+More detailed function documentation can be found as follow:
+
+* :doc:`Non-RT RIC <nonrtric:index>`
 
 
-OAM
----
+Operations and Maintenance (OAM)
+--------------------------------
+The O-RAN-SC-OAM project provides reference implementation according to the O-RAN OAM (WG1) documents. In addition we provide a common MnS-Consumer for development and module test purposes. The assumption is that the projects for the ManagedElements can concentrate on the more important user-plane.
+
+More detailed function documentation can be found as follow:
+
 * :doc:`RIC Dashboard <portal-ric-dashboard:index>`
 
 
-OCU
----
+O-RAN Central Unit (OCU)
+------------------------
+The OCU is target an initial software deliverable with limited functionality. Focus on aa basic E2 interface to enable initial integration testing between RIC and OCU.
+
+More detailed function documentation can be found as follow:
+
 * :doc:`Open LTE <scp-ocu-openlte:index>`
 
 
-ODUHIGH
--------
+O-RAN Distributed Unit High Layers (ODUHIGH)
+--------------------------------------------
+Focus on initial L2 functional blocks based on seed code contributions.
+
+More detailed function documentation can be found as follow:
 
 
-ODULOW
-------
+O-RAN Distributed Unit Low Layers (ODULOW)
+------------------------------------------
+Focus on initial L1 functional blocks based on seed code contributions.
+
+More detailed function documentation can be found as follow:
 
 
-INF
----
-* :doc:`RIC Dashboard <portal-ric-dashboard:index>`
+Infrastructure (INF)
+--------------------
+Initial building blocks for infrastructure to run O-RAN NF components.
+
+More detailed function documentation can be found as follow:
+
+* :doc:`Realtime Platform <pti-rtp:index>`
 
 
-SIM
----
+Simulations(SIM)
+----------------
+Initial simulators used for testing O-RAN NF interfaces.
+
+More detailed function documentation can be found as follow:
+
 * :doc:`SIM/O1-Interface <sim-o1-interface:index>`
 
 
-INT
----
+Integration and Testing (INT)
+-----------------------------
+The integration and test effort will focus on testing the requirements documented in each release. This will focus on end to end test and use case testing.
+
+INF Testing shall primarily be done on the Akraino-REC (Radio Edge Cloud) blueprint. While Non-RT RIC and O1 interface testing will primarily use ONAP components.
+
+More detailed function documentation can be found as follow:
+
 * :doc:`IT-Dep<it-dep:index>`
 * :doc:`IT-Test<it-test:index>`
 * :doc:`IT-Dev<it-dev:index>`
 * :doc:`IT-Otf<it-otf:index>`
-
 
 
 
