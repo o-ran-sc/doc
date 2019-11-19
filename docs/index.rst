@@ -6,7 +6,6 @@
 
 The O-RAN Software Community (SC) Documentation.
 
-test line will be removed.
 
 Welcome to O-RAN SC Documentation Home
 ======================================
