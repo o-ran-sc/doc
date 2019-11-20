@@ -17,6 +17,7 @@ More detailed function documentation can be found as follow:
 * :doc:`RIC Measurement Campaign (MC) xApp <ric-app-mc:index>`
 * :doc:`RIC APP ML <ric-app-mc:index>`
 * :doc:`GS-lite Stream Processing Engine <com-gs-lite:index>`
+* :doc:`Admission Control xAPP <ric-app-admin:index>`
 
 Near Realtime RAN Intelligent Controller (RIC)
 ----------------------------------------------
@@ -73,6 +74,7 @@ O-RAN Distributed Unit High Layers (ODUHIGH)
 Focus on initial L2 functional blocks based on seed code contributions.
 
 More detailed function documentation can be found as follow:
+* :doc:`O-DU Layer 2 <o-du-l2:index>`
 
 
 O-RAN Distributed Unit Low Layers (ODULOW)
@@ -80,6 +82,7 @@ O-RAN Distributed Unit Low Layers (ODULOW)
 Focus on initial L1 functional blocks based on seed code contributions.
 
 More detailed function documentation can be found as follow:
+
 
 
 Infrastructure (INF)

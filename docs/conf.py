@@ -12,7 +12,7 @@ intersphinx_mapping = {}
 intersphinx_mapping['ric-app-mc'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-mc/en/%s' % branch, None)
 intersphinx_mapping['ric-app-ml'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-ml/en/%s' % branch, None)
 intersphinx_mapping['com-gs-lite'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-gs-lite/en/%s' % branch, None)
-#intersphinx_mapping['ric-app-admin'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-admin/en/%s' % branch, None)
+intersphinx_mapping['ric-app-admin'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-admin/en/%s' % branch, None)
 
 #(near realtime)RIC platform
 intersphinx_mapping['com-log'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-log/en/%s' % branch, None)
@@ -41,9 +41,10 @@ intersphinx_mapping['portal-ric-dashboard'] = ('https://docs.o-ran-sc.org/projec
 intersphinx_mapping['scp-ocu-openlte'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-scp-ocu-openlte/en/%s' % branch, None)
 
 #ODUHIGH
-
+intersphinx_mapping['o-du-l2'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-l2/en/%s' % branch, None)
 
 #ODULOW
+#intersphinx_mapping['odi-phy'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-scp-odu-phy/en/%s' % branch, None)
 
 
 #INF
