@@ -74,6 +74,7 @@ O-RAN Distributed Unit High Layers (ODUHIGH)
 Focus on initial L2 functional blocks based on seed code contributions.
 
 More detailed function documentation can be found as follow:
+
 * :doc:`O-DU Layer 2 <o-du-l2:index>`
 
 
