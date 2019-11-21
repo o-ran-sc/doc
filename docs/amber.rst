@@ -84,6 +84,7 @@ Focus on initial L1 functional blocks based on seed code contributions.
 
 More detailed function documentation can be found as follow:
 
+* :doc:`O-DU Layer 1 <o-du-phy:index>`
 
 
 Infrastructure (INF)
