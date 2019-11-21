@@ -44,7 +44,7 @@ intersphinx_mapping['scp-ocu-openlte'] = ('https://docs.o-ran-sc.org/projects/o-
 intersphinx_mapping['o-du-l2'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-l2/en/%s' % branch, None)
 
 #ODULOW
-#intersphinx_mapping['odi-phy'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-scp-odu-phy/en/%s' % branch, None)
+intersphinx_mapping['o-du-phy'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-phy/en/%s' % branch, None)
 
 
 #INF
