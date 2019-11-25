@@ -23,12 +23,10 @@ Please find some guidance here on the content of O-RAN SC documentation.
    architecture/architecture.rst
    license.rst
    release-notes.rst
-   amber.rst
-
-.. * :doc:`RIC Dashboard <portal-ric-dashboard:index>`
+   projects.rst
 
 
-Indices and tables
+Indices
 ==================
 
 * :ref:`genindex`
