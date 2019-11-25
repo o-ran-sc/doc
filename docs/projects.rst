@@ -15,7 +15,7 @@ RICAPP includes open source sample xAPPs and platform applications that can we u
 More detailed function documentation can be found as follow:
 
 * :doc:`RIC Measurement Campaign (MC) xApp <ric-app-mc:index>`
-* :doc:`RIC APP ML <ric-app-mc:index>`
+* :doc:`RIC APP ML <ric-app-ml:index>`
 * :doc:`GS-lite Stream Processing Engine <com-gs-lite:index>`
 * :doc:`Admission Control xAPP <ric-app-admin:index>`
 
