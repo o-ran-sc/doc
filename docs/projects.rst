@@ -18,6 +18,7 @@ More detailed function documentation can be found as follow:
 * :doc:`RIC APP ML <ric-app-ml:index>`
 * :doc:`GS-lite Stream Processing Engine <com-gs-lite:index>`
 * :doc:`Admission Control xAPP <ric-app-admin:index>`
+* :doc:`KPI monitoring <ric-app-kpimon:index>`
 
 Near Realtime RAN Intelligent Controller (RIC)
 ----------------------------------------------
