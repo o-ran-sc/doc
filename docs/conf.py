@@ -13,6 +13,8 @@ intersphinx_mapping['ric-app-mc'] = ('https://docs.o-ran-sc.org/projects/o-ran-s
 intersphinx_mapping['ric-app-ml'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-ml/en/%s' % branch, None)
 intersphinx_mapping['com-gs-lite'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-gs-lite/en/%s' % branch, None)
 intersphinx_mapping['ric-app-admin'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-admin/en/%s' % branch, None)
+intersphinx_mapping['ric-app-kpimon'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-kpimon/en/%s' % branch, None)
+
 
 #(near realtime)RIC platform
 intersphinx_mapping['com-log'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-log/en/%s' % branch, None)
