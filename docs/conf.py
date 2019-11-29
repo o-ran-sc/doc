@@ -37,6 +37,7 @@ intersphinx_mapping['ric-plt-streaming-protobufs'] = ('https://docs.o-ran-sc.org
 intersphinx_mapping['nonrtric'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-nonrtric/en/%s' % branch, None)
 
 #OAM
+intersphinx_mapping['oam'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-oam/en/%s' % branch, None)
 intersphinx_mapping['portal-ric-dashboard'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-portal-ric-dashboard/en/%s' % branch, None)
 
 #OCU

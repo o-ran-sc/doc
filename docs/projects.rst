@@ -58,6 +58,7 @@ The O-RAN-SC-OAM project provides reference implementation according to the O-RA
 
 More detailed function documentation can be found as follow:
 
+* :doc:`OAM Operation and Maintenance <oam:index>`
 * :doc:`RIC Dashboard <portal-ric-dashboard:index>`
 
 

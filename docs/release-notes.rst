@@ -38,6 +38,7 @@ RAN Intelligent Controller Applications (RICAPP)
 .. * :doc:`RIC Measurement Campaign (MC) xApp <ric-app-mc:release-notes>`
 .. * :doc:`RIC APP ML <ric-app-ml:release-notes>`
 
+
 * :doc:`GS-lite Stream Processing Engine <com-gs-lite:release-notes>`
 * :doc:`Admission Control xAPP <ric-app-admin:release-notes>`
 * :doc:`KPI monitoring <ric-app-kpimon:release-notes>`
@@ -69,6 +70,7 @@ Non-RealTime RAN Intelligent Controller (NONRTRIC)
 
 Operations and Maintenance (OAM)
 
+* :doc:`OAM Operation and Maintenance <oam:release-notes>`
 * :doc:`RIC Dashboard <portal-ric-dashboard:release-notes>`
 
 
