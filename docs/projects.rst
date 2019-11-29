@@ -115,10 +115,10 @@ INF Testing shall primarily be done on the Akraino-REC (Radio Edge Cloud) bluepr
 
 More detailed function documentation can be found as follow:
 
-* :doc:`IT-Dep<it-dep:index>`
-* :doc:`IT-Test<it-test:index>`
-* :doc:`IT-Dev<it-dev:index>`
-* :doc:`IT-Otf<it-otf:index>`
+* :doc:`IT-DEP <it-dep:index>`
+* :doc:`IT-TEST <it-test:index>`
+* :doc:`IT-DEV <it-dev:index>`
+* :doc:`IT-OTF <it-otf:index>`
 
 
 
