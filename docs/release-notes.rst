@@ -20,13 +20,13 @@ Version history
 | **Date**           | **Ver.**           | **Author**         | **Comment**        |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| 2019-11-12         | 0.1.0              | Weichen Ni(CMCC)   | A Release draft    |
+| 2019-11-12         | 0.1.0              | CMCC               | A Release draft    |
+|                    |                    |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 2019-12-01         | 0.2.0              | CMCC               | Amber release draft|
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
 |                    |                    |                    |                    |
-|                    |                    |                    |                    |
-+--------------------+--------------------+--------------------+--------------------+
-|                    | 1.0                |                    |                    |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
 
@@ -204,6 +204,10 @@ IT-DEP hosts deployment and integration artifacts such as scripts, Helm charts, 
 * :doc:`IT-DEP Release-notes <it-dep:release-notes>`
 
 
+IT-TEST, which  contains:
+Test automation scripts written using the robot frameworkDeployment scripts for a dev-test 1-node Kubernetes cluster.
+A functional simulator for the E2 protocol that acts as gNB used to test the RIC.
+A workload generator that is used to benchmark the RIC
 
 * :doc:`IT-TEST Release-notes <it-test:release-notes>`
 
