@@ -26,6 +26,7 @@ intersphinx_mapping['ric-plt-lib-rmr'] = ('https://docs.o-ran-sc.org/projects/o-
 intersphinx_mapping['ric-plt-rtmgr'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-rtmgr/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-sdl'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-sdl/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-sdlgo'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-sdlgo/en/%s' % branch, None)
+intersphinx_mapping['ric-plt-submgr'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-submgr/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-jaegeradapter'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-jaegeradapter/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-tracelibcpp'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-tracelibcpp/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-tracelibgo'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-tracelibgo/en/%s' % branch, None)

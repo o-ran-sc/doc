@@ -103,6 +103,8 @@ Shared Data Layer, which provides a lightweight, high-speed interface for access
 
 * :doc:`Shared Data Layer (SDL) in Go Release-notes <ric-plt-sdlgo:release-notes>`
 
+..
+.. * :doc:`Subscription Manager Release-notes <ric-plt-submgr:release-notes>`
 
 Jaegeradapter, which contains jaeger configuration files. This first version only supports configuration for a jaeger-all-in-one deployment.
 

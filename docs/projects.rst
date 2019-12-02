@@ -35,6 +35,7 @@ More detailed function documentation can be found as follow:
 * :doc:`Routing Manager <ric-plt-rtmgr:index>`
 * :doc:`Shared Data Layer (SDL) in C++ <ric-plt-sdl:index>`
 * :doc:`Shared Data Layer (SDL) in Go <ric-plt-sdlgo:index>`
+* :doc:`Shared Data Layer (SDL) in Go <ric-plt-submgr:index>`
 * :doc:`Jaegeradapter <ric-plt-jaegeradapter:index>`
 * :doc:`Tracelibcpp <ric-plt-tracelibcpp:index>`
 * :doc:`Tracelibgo <ric-plt-tracelibgo:index>`
