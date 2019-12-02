@@ -31,17 +31,21 @@ More detailed function documentation can be found as follow:
 * :doc:`PYLOG <com-pylog:index>`
 * :doc:`A1 <ric-plt-a1:index>`
 * :doc:`DBAAS <ric-plt-dbaas:index>`
+* :doc:`E2 <ric-plt-e2:index>`
+* :doc:`E2MGR <ric-plt-e2mgr:index>`
 * :doc:`RIC Message Router <ric-plt-lib-rmr:index>`
+* :doc:`nodeb-rnib <ric-plt-nodeb-rnib:index>`
 * :doc:`Routing Manager <ric-plt-rtmgr:index>`
 * :doc:`Shared Data Layer (SDL) in C++ <ric-plt-sdl:index>`
 * :doc:`Shared Data Layer (SDL) in Go <ric-plt-sdlgo:index>`
-* :doc:`Shared Data Layer (SDL) in Go <ric-plt-submgr:index>`
+* :doc:`Subscription Manager <ric-plt-submgr:index>`
 * :doc:`Jaegeradapter <ric-plt-jaegeradapter:index>`
 * :doc:`Tracelibcpp <ric-plt-tracelibcpp:index>`
 * :doc:`Tracelibgo <ric-plt-tracelibgo:index>`
 * :doc:`Vespamgr <ric-plt-vespamgr:index>`
 * :doc:`ASN.1 Documents <ric-plt-asn1-documents:index>`
 * :doc:`Streaming Protobufs <ric-plt-streaming-protobufs:index>`
+* :doc:`Reasouce Status Manager <ric-plt-resource-status-manager:index>`
 
 
 Non-RealTime RAN Intelligent Controller (NONRTRIC)

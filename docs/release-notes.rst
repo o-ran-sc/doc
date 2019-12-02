@@ -88,8 +88,12 @@ DBAAS, which is the needed elements to deploy database as a service (Dbaas) to k
 
 * :doc:`DBAAS Release-notes <ric-plt-dbaas:release-notes>`
 
+.. * :doc:`E2 Release-notes <ric-plt-e2:release-notes>`
+.. * :doc:`E2MGR Release-notes <ric-plt-e2mgr:release-notes>`
+.. * :doc:`nodeb-rnib Release-notes <ric-plt-nodeb-rnib:release-notes>`
+.. 
 ..
-.. * :doc:`RIC Message Router Release-notes <ric-plt-lib-rmr:rel-notes>`
+.. * :doc:`RIC Message Router Release-notes <ric-plt-lib-rmr:release-notes>`
 ..
 ..
 .. * :doc:`Routing Manager Release-notes <ric-plt-rtmgr:release-notes>`
@@ -135,6 +139,7 @@ Streaming Protobufs, which provides a Protobuf schema for selected set of X2 App
 
 * :doc:`Streaming Protobufs Release-notes <ric-plt-streaming-protobufs:release-notes>`
 
+.. * :doc:`Resource Status Manager Release-notes <ric-plt-resouce-status-manager:release-notes>`
 
 
 Non-RealTime RAN Intelligent Controller (NONRTRIC) features

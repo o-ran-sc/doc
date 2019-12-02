@@ -22,6 +22,9 @@ intersphinx_mapping['com-golog'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc
 intersphinx_mapping['com-pylog'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-pylog/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-a1'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-a1/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-dbaas'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-dbaas/en/%s' % branch, None)
+intersphinx_mapping['ric-plt-e2'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-e2/en/%s' % branch, None)
+intersphinx_mapping['ric-plt-e2mgr'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-e2mgr/en/%s' % branch, None)
+intersphinx_mapping['ric-plt-nodeb-rnib'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-nodeb-rnib/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-lib-rmr'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-lib-rmr/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-rtmgr'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-rtmgr/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-sdl'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-sdl/en/%s' % branch, None)
@@ -33,6 +36,7 @@ intersphinx_mapping['ric-plt-tracelibgo'] = ('https://docs.o-ran-sc.org/projects
 intersphinx_mapping['ric-plt-vespamgr'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-vespamgr/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-asn1-documents'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-asn1-documents/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-streaming-protobufs'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-streaming-protobufs/en/%s' % branch, None)
+intersphinx_mapping['ric-plt-resource-status-manager'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-resource-status-manager/en/%s' % branch, None)
 
 #nonrt ric
 intersphinx_mapping['nonrtric'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-nonrtric/en/%s' % branch, None)
