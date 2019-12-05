@@ -6,7 +6,6 @@
 
 The O-RAN Software Community (SC) Documentation.
 
-
 Welcome to O-RAN SC Documentation Home
 ======================================
 
