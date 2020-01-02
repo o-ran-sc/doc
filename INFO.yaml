@@ -1,0 +1,45 @@
+---
+project: doc
+project_creation_date: '2019-08-07'
+project_category: category
+lifecycle_state: Incubation
+project_lead: &doc
+    name: Weichen Ni
+    email: niweichen@chinamboile.com
+    company: China Mobile
+    id: niweichen
+    timezone: China/Beijing
+primary_contact: *doc
+issue_tracking:
+    type: jira
+    url: https://jira.o-ran-sc.org/projects/DOC
+    key: DOC
+mailing_list:
+    type: groups.io
+    url: https://lists.o-ran-sc.org/g/main
+    tag: <[doc]>
+realtime_discussion:
+    type: irc
+    server: freenode.net
+    channel: o-ran-sc
+repositories:
+    - doc
+committers:
+    - name: Weichen Ni
+      email: niweichen@chinamobile.com
+      company: China Mobile
+      id: niweichen
+      timezone: Asia/Shanghai
+    - name: Farheen Cefalu
+      email: fmasood@research.att.com
+      company: AT&T
+      id: fm2124
+      timezone: America/New_York
+tsc:
+    approval: https://wiki.o-ran-sc.org/display/TOC/2019+08+21
+    changes:
+        - type: Addition
+          name:
+              - Farheen Cefalu
+              - Aric Gardner
+          link: https://wiki.o-ran-sc.org/display/TOC/2019+09+18
