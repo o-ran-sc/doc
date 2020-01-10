@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "454ff3b3_4b58143d",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 5,
+      "author": {
+        "id": 1000014
+      },
+      "writtenOn": "2020-01-10T12:09:11Z",
+      "side": 1,
+      "message": "please remove this empty line",
+      "range": {
+        "startLine": 5,
+        "startChar": 1,
+        "endLine": 5,
+        "endChar": 2
+      },
+      "revId": "5df2e5257cfc1a83c0f06594d769939dc9bd2910",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7723f7da_ba37c45b",
+        "filename": "docs/conf.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000014
+      },
+      "writtenOn": "2020-01-10T12:09:11Z",
+      "side": 1,
+      "message": "please remove this empty line",
+      "revId": "5df2e5257cfc1a83c0f06594d769939dc9bd2910",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53",
+      "unresolved": true
+    }
+  ]
+}
