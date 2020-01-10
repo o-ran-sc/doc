@@ -1,6 +1,8 @@
 from docs_conf.conf import *
 
 branch = 'latest'
+version = 'amber'		
+release = 'amber'
 
 linkcheck_ignore = [
       'http://localhost',
