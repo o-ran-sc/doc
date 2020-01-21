@@ -1,3 +1,6 @@
 ---
 project_cfg: oran
 project: oran
+default-version: 'amber'
+
+
