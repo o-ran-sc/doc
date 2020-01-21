@@ -1,7 +1,7 @@
 from docs_conf.conf import *
 
 #branch configuration
-branch = 'latest'
+#branch = 'stable'
 
 linkcheck_ignore = [
       'http://localhost',
