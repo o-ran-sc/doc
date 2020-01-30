@@ -28,12 +28,17 @@ committers:
     - name: Weichen Ni
       email: niweichen@chinamobile.com
       company: China Mobile
-      id: niweichen
+      id: weichen
       timezone: Asia/Shanghai
+    - name: Aric Gardner
+      email: agardner@linuxfoundation.org
+      company: Linux Foundation
+      id: aric 
+      timezone: America
     - name: Farheen Cefalu
       email: fmasood@research.att.com
       company: AT&T
-      id: fm2124
+      id: farheen
       timezone: America/New_York
 tsc:
     approval: https://wiki.o-ran-sc.org/display/TOC/2019+08+21
