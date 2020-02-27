@@ -10,12 +10,14 @@ more infomation can be found at https://www.o-ran.org/software.
 
 Apache 2.0 License
 ------------------
-The O-RAN Software Community is a Linux Foundation project supported and funded by O-RAN to lead the implementation of the O-RAN specifications in Open Source. The project leverages the Apache 2.0 License.
+The O-RAN Software Community is a Linux Foundation project supported and funded by O-RAN to lead the implementation of the O-RAN specifications in Open Source. The project leverages the `Apache Version 2 License <http://www.apache.org/licenses/LICENSE-2.0>`_.
 
 
 O-RAN Software License
 ----------------------
-The O-RAN Specification Code Project is an O-RAN Alliance project. Its objective is to allow contributions that will acknowledge essential patents. The project leverages the O-RAN Software License.
+The O-RAN Specification Code Project is an O-RAN Alliance project. Its objective is to allow contributions that will acknowledge essential patents. The project leverages the `O-RAN Software License <https://static1.squarespace.com/static/5ad774cce74940d7115044b0/t/5d510f6927cc360001d337e2/1565593453879/O-RAN+Software+License+v.1.0_6-11-19_clean.pdf>`_.
 
 
-
+Creative Commons Attribution 4.0 International License
+------------------------------------------------------
+All documentation in O-RAN SC will be received and made available by the Specification,Code Project under the `Creative Commons Attribution 4.0 International License <http://creativecommons.org/licenses/by/4.0>`_.

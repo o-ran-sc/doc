@@ -2,10 +2,10 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. Copyright (C) 2019 CMCC
 
-.. amber release projects index
+.. index rst file
 
 
-O-RAN SC Amber Release Projects
+O-RAN SC Projects
 ===============================
 
 RAN Intelligent Controller Applications (RICAPP)
