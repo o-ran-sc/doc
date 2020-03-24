@@ -24,7 +24,8 @@ Please find some guidance here on the content of O-RAN SC documentation.
    license.rst
    release-notes.rst
    projects.rst
-
+   api-docs.rst
+	
 
 Indices
 ==================
