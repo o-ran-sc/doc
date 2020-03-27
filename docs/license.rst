@@ -20,4 +20,4 @@ The O-RAN Specification Code Project is an O-RAN Alliance project. Its objective
 
 Creative Commons Attribution 4.0 International License
 ------------------------------------------------------
-All documentation in O-RAN SC will be received and made available by the Specification,Code Project under the `Creative Commons Attribution 4.0 International License <http://creativecommons.org/licenses/by/4.0>`_.
+All documentation in O-RAN SC will be received and made available by the Specification,Code Project under the Creative Commons Attribution 4.0 International License.
