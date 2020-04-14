@@ -44,6 +44,8 @@ intersphinx_mapping['ric-plt-resource-status-manager'] = ('https://docs.o-ran-sc
 
 #nonrt ric
 intersphinx_mapping['nonrtric'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-nonrtric/en/%s' % branch, None)
+intersphinx_mapping['nonrtric-controlpanel'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-portal-nonrtric-controlpanel/en/%s' % branch, None)
+intersphinx_mapping['sim-a1-interface'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-sim-a1-interface/en/%s' % branch, None)
 
 #OAM
 intersphinx_mapping['oam'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-oam/en/%s' % branch, None)
