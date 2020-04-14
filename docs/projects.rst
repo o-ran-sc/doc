@@ -55,6 +55,8 @@ Non-realtime RIC focus on feature functionality of A1-interface (consumer and pr
 More detailed function documentation can be found as follow:
 
 * :doc:`Non-RT RIC <nonrtric:index>`
+* :doc:`Non-RT RIC Control Panel <nonrtric-controlpanel:index>`
+* :doc:`A1 Interface Simulator <sim-a1-interface:index>`
 
 
 Operations and Maintenance (OAM)
