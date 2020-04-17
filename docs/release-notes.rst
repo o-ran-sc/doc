@@ -20,10 +20,10 @@ Version history
 | **Date**           | **Ver.**           | **Author**         | **Comment**        |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| 2019-11-12         | 0.1.0              | CMCC               | A Release draft    |
+| 2019-11-31         | Amber              | CMCC               | Amber Release      |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| 2019-12-01         | 0.2.0              | CMCC               | Amber release draft|
+| 		     | 	                  | 	               |                    |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
 |                    |                    |                    |                    |
@@ -145,7 +145,7 @@ Streaming Protobufs, which provides a Protobuf schema for selected set of X2 App
 Non-RealTime RAN Intelligent Controller (NONRTRIC) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A dashboard is available. Non-RT RIC does not support R-apps yet. The Non-RT RIC is not yet fully compliant with the A1 specifications for this release. 
+In Bronze release, Non-RT RIC containes Policy Agent, Control Panel and A1 Simulator. 
 
 * :doc:`Non-RT RIC Release-notes <nonrtric:release-notes>`
 
