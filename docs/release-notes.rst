@@ -31,7 +31,7 @@ Version history
 +--------------------+--------------------+--------------------+--------------------+
 
 
-Amber Release Summary
+Release Summary
 ---------------------
 
 RAN Intelligent Controller Applications (RICAPP) features 
