@@ -37,14 +37,10 @@ Release Summary
 RAN Intelligent Controller Applications (RICAPP) features 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The MC xAPP, which supports calculation of a number of metrics and KPIs based on X2 messages received from UEEC.
 
-* :doc:`RIC Measurement Campaign (MC) xApp Release-notes <ric-app-mc:release-notes>`
+The AC xAPP, which supports full closed loop control as well as report mode operation for admission control of SgNB Addition requests, reporting of metrics over VES, and configuration of single instance policies via the A1-Interface.
 
-
-The Acumos xAPP adapter, which contains the code needed to use an existing Acumos microservice as an O-RAN xAPP, by providing “glue” that listens and speaks RMR protocol and translates these into calls to the Acumos microservice, which is co-deployed in the same pod as the adapter.
-
-* :doc:`RIC APP ML Release-notes <ric-app-ml:release-notes>`
+* :doc:`Admission Control xAPP Release-notes <ric-app-admin:release-notes>`
 
 
 GS-lite, which is an open-source, real-time, low-latency, high-throughput stream processing engine.
@@ -53,36 +49,35 @@ It is a fork of cask/tigon (https://github.com/cdapio/tigon) maintained to serve
 * :doc:`GS-lite Stream Processing Engine Release-notes <com-gs-lite:release-notes>`
 
 
-The AC xAPP, which supports full closed loop control as well as report mode operation for admission control of SgNB Addition requests, reporting of metrics over VES, and configuration of single instance policies via the A1-Interface.
-
-* :doc:`Admission Control xAPP Release-notes <ric-app-admin:release-notes>`
-
-
 The KPI Mon xAPP, which supports full closed loop control for CuCpResourceStatusReport from multiple gNBs and stores the metrics in Redis DB.
 
 * :doc:`KPI monitoring Release-notes <ric-app-kpimon:release-notes>`
+
+
+The Acumos xAPP adapter, which contains the code needed to use an existing Acumos microservice as an O-RAN xAPP, by providing “glue” that listens and speaks RMR protocol and translates these into calls to the Acumos microservice, which is co-deployed in the same pod as the adapter.
+
+* :doc:`RIC APP ML Release-notes <ric-app-ml:release-notes>`
+
+
+The MC xAPP, which supports calculation of a number of metrics and KPIs based on X2 messages received from UEEC.
+
+* :doc:`RIC Measurement Campaign (MC) xApp Release-notes <ric-app-mc:release-notes>`
 
 
 
 Near Realtime RAN Intelligent Controller (RIC) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-LOG, which is a thread-safe logging C API library with Mapped Diagnostics Context (MDC) support.
+The RAN Intelligent Controller (RIC) Platform’s A1 Mediator component listens for policy type and policy instance requests sent via HTTP (the “northbound” interface), and publishes those requests to running xApps via RMR messages (the “southbound” interface).
 
-* :doc:`LOG Release-notes <com-log:release-notes>`
+* :doc:`A1 Release-notes <ric-plt-a1:release-notes>`
 
+.. * :doc:`Alarm Go Library Release-notes <ric-plt-alarm-go:release-notes>`
 
-Golang, which is an implementation of a structured logging library with Mapped Diagnostics Context (MDC) support.
+Asn1-documents, which contains a description of the E2 used in the near-RT RIC implementation under O-RAN-SC.
 
-* :doc:`GOLOG Release-notes <com-golog:release-notes>`
+* :doc:`ASN.1 Documents Release-notes <ric-plt-asn1-documents:release-notes>`
 
-
-PYLOG, which implements a structured logging library with Mapped Diagnostic Context (MDC).
-
-* :doc:`PYLOG Release-notes <com-pylog:release-notes>`
-
-..
-.. * :doc:`A1 Release-notes <ric-plt-a1:release-notes>`
 
 DBAAS, which is the needed elements to deploy database as a service (Dbaas) to kubernetes. Dbaas service is realized with a single container running Redis database. The database is configured to be non-persistent and non-redundant.
 
@@ -90,12 +85,39 @@ DBAAS, which is the needed elements to deploy database as a service (Dbaas) to k
 
 .. * :doc:`E2 Release-notes <ric-plt-e2:release-notes>`
 .. * :doc:`E2MGR Release-notes <ric-plt-e2mgr:release-notes>`
+
+Golang, which is an implementation of a structured logging library with Mapped Diagnostics Context (MDC) support.
+
+* :doc:`GOLOG Release-notes <com-golog:release-notes>`
+
+
+The HelloWorld(HW) xAPP repository contains open-source code for a prototype xAPP for near real-time RAN Intelligent Controller. 
+
+* :doc:`HelloWorld xAPP Release-notes <ric-app-hw:release-notes>`
+
+
+Jaegeradapter, which contains jaeger configuration files. This first version only supports configuration for a jaeger-all-in-one deployment.
+
+* :doc:`Jaegeradapter Release-notes <ric-plt-jaegeradapter:release-notes>`
+
+
+LOG, which is a thread-safe logging C API library with Mapped Diagnostics Context (MDC) support.
+
+* :doc:`LOG Release-notes <com-log:release-notes>`
+
 .. * :doc:`nodeb-rnib Release-notes <ric-plt-nodeb-rnib:release-notes>`
-.. 
-..
+
+PYLOG, which implements a structured logging library with Mapped Diagnostic Context (MDC).
+
+* :doc:`PYLOG Release-notes <com-pylog:release-notes>`
+
+
+QoE Predictor (QP) is an Xapp in the Traffic Steering O-RAN use case.
+
+* :doc:`QoE Predictor xApp Release-notes <ric-app-qp:release-notes>`
+
+.. * :doc:`Resource Status Manager Release-notes <ric-plt-resouce-status-manager:release-notes>`
 .. * :doc:`RIC Message Router Release-notes <ric-plt-lib-rmr:release-notes>`
-..
-..
 .. * :doc:`Routing Manager Release-notes <ric-plt-rtmgr:release-notes>`
 
 Shared Data Layer, which provides a lightweight, high-speed interface for accessing shared data storage. The purpose is to enable utilizing clients to become stateless, conforming with, e.g., the requirements of the fifth generation mobile networks.
@@ -107,13 +129,12 @@ Shared Data Layer, which provides a lightweight, high-speed interface for access
 
 * :doc:`Shared Data Layer (SDL) in Go Release-notes <ric-plt-sdlgo:release-notes>`
 
-..
+
+Streaming Protobufs, which provides a Protobuf schema for selected set of X2 Application Protocol messages.
+
+* :doc:`Streaming Protobufs Release-notes <ric-plt-streaming-protobufs:release-notes>`
+
 .. * :doc:`Subscription Manager Release-notes <ric-plt-submgr:release-notes>`
-
-Jaegeradapter, which contains jaeger configuration files. This first version only supports configuration for a jaeger-all-in-one deployment.
-
-* :doc:`Jaegeradapter Release-notes <ric-plt-jaegeradapter:release-notes>`
-
 
 Tracelibcpp library, which implements a function for creating a configured tracer instance. It hides the underlaying tracer implementation from the application. The library currently supports only Jaeger (https://www.jaegertracing.io/) C++ client (https://github.com/jaegertracing/jaeger-client-cpp) tracer implementation.
 
@@ -129,17 +150,6 @@ The VESPA manager ,which uses the VES Agent (https://github.com/nokia/ONAP-VESPA
 
 * :doc:`Vespamgr Release-notes <ric-plt-vespamgr:release-notes>`
 
-
-Asn1-documents, which contains a description of the E2 used in the near-RT RIC implementation under O-RAN-SC.
-
-* :doc:`ASN.1 Documents Release-notes <ric-plt-asn1-documents:release-notes>`
-
-
-Streaming Protobufs, which provides a Protobuf schema for selected set of X2 Application Protocol messages.
-
-* :doc:`Streaming Protobufs Release-notes <ric-plt-streaming-protobufs:release-notes>`
-
-.. * :doc:`Resource Status Manager Release-notes <ric-plt-resouce-status-manager:release-notes>`
 
 
 Non-RealTime RAN Intelligent Controller (NONRTRIC) features
@@ -209,17 +219,17 @@ IT-DEP hosts deployment and integration artifacts such as scripts, Helm charts, 
 * :doc:`IT-DEP Release-notes <it-dep:release-notes>`
 
 
+IT-DEV which integrates artifacts for developing Near Realtime RAN Intelligent Controller applications (xApps).
+
+* :doc:`IT-DEV Release-notes <it-dev:release-notes>`
+
+
 IT-TEST, which  contains:
 Test automation scripts written using the robot frameworkDeployment scripts for a dev-test 1-node Kubernetes cluster.
 A functional simulator for the E2 protocol that acts as gNB used to test the RIC.
 A workload generator that is used to benchmark the RIC
 
 * :doc:`IT-TEST Release-notes <it-test:release-notes>`
-
-
-IT-DEV which integrates artifacts for developing Near Realtime RAN Intelligent Controller applications (xApps).
-
-* :doc:`IT-DEV Release-notes <it-dev:release-notes>`
 
 
 IT-DEV includes the initial commit of the OTF platform code. Applications include otf-frontend, otf-service-api, otf-camunda, and several virtual test head microservices (ping, ssh, robot, ric). In addition setup documentation and installation guides are included to build docker containers and helm charts for deployment.
