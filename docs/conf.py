@@ -41,6 +41,12 @@ intersphinx_mapping['ric-plt-xapp-frame'] = ('https://docs.o-ran-sc.org/projects
 intersphinx_mapping['ric-plt-asn1-documents'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-asn1-documents/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-streaming-protobufs'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-streaming-protobufs/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-resource-status-manager'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-resource-status-manager/en/%s' % branch, None)
+intersphinx_mapping['ric-plt-alarm-go'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-alarm-go/en/%s' % branch, None)
+intersphinx_mapping['ric-app-hw'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-hw/en/%s' % branch, None)
+intersphinx_mapping['ric-app-qp'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-qp/en/%s' % branch, None)
+intersphinx_mapping['ric-app-ts'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-ts/en/%s' % branch, None)
+
+
 
 #nonrt ric
 intersphinx_mapping['nonrtric'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-nonrtric/en/%s' % branch, None)
