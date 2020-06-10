@@ -37,6 +37,7 @@ Release Summary
 RAN Intelligent Controller Applications (RICAPP) features 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. * :doc:`Alarm Go Library Release-notes <ric-plt-alarm-go:release-notes>`
 
 The AC xAPP, which supports full closed loop control as well as report mode operation for admission control of SgNB Addition requests, reporting of metrics over VES, and configuration of single instance policies via the A1-Interface.
 
@@ -49,9 +50,19 @@ It is a fork of cask/tigon (https://github.com/cdapio/tigon) maintained to serve
 * :doc:`GS-lite Stream Processing Engine Release-notes <com-gs-lite:release-notes>`
 
 
+The HelloWorld(HW) xAPP repository contains open-source code for a prototype xAPP for near real-time RAN Intelligent Controller. 
+
+* :doc:`HelloWorld xAPP Release-notes <ric-app-hw:release-notes>`
+
+
 The KPI Mon xAPP, which supports full closed loop control for CuCpResourceStatusReport from multiple gNBs and stores the metrics in Redis DB.
 
 * :doc:`KPI monitoring Release-notes <ric-app-kpimon:release-notes>`
+
+
+QoE Predictor (QP) is an Xapp in the Traffic Steering O-RAN use case.
+
+* :doc:`QoE Predictor xApp Release-notes <ric-app-qp:release-notes>`
 
 
 The Acumos xAPP adapter, which contains the code needed to use an existing Acumos microservice as an O-RAN xAPP, by providing “glue” that listens and speaks RMR protocol and translates these into calls to the Acumos microservice, which is co-deployed in the same pod as the adapter.
@@ -72,7 +83,6 @@ The RAN Intelligent Controller (RIC) Platform’s A1 Mediator component listens 
 
 * :doc:`A1 Release-notes <ric-plt-a1:release-notes>`
 
-.. * :doc:`Alarm Go Library Release-notes <ric-plt-alarm-go:release-notes>`
 
 Asn1-documents, which contains a description of the E2 used in the near-RT RIC implementation under O-RAN-SC.
 
@@ -91,11 +101,6 @@ Golang, which is an implementation of a structured logging library with Mapped D
 * :doc:`GOLOG Release-notes <com-golog:release-notes>`
 
 
-The HelloWorld(HW) xAPP repository contains open-source code for a prototype xAPP for near real-time RAN Intelligent Controller. 
-
-* :doc:`HelloWorld xAPP Release-notes <ric-app-hw:release-notes>`
-
-
 Jaegeradapter, which contains jaeger configuration files. This first version only supports configuration for a jaeger-all-in-one deployment.
 
 * :doc:`Jaegeradapter Release-notes <ric-plt-jaegeradapter:release-notes>`
@@ -110,11 +115,6 @@ LOG, which is a thread-safe logging C API library with Mapped Diagnostics Contex
 PYLOG, which implements a structured logging library with Mapped Diagnostic Context (MDC).
 
 * :doc:`PYLOG Release-notes <com-pylog:release-notes>`
-
-
-QoE Predictor (QP) is an Xapp in the Traffic Steering O-RAN use case.
-
-* :doc:`QoE Predictor xApp Release-notes <ric-app-qp:release-notes>`
 
 .. * :doc:`Resource Status Manager Release-notes <ric-plt-resouce-status-manager:release-notes>`
 .. * :doc:`RIC Message Router Release-notes <ric-plt-lib-rmr:release-notes>`

@@ -14,11 +14,15 @@ RICAPP includes open source sample xAPPs and platform applications that can we u
 
 More detailed function documentation can be found as follow:
 
+* :doc:`Alarm Go Library <ric-plt-alarm-go:index>`
 * :doc:`Admission Control xAPP <ric-app-admin:index>`
 * :doc:`GS-lite Stream Processing Engine <com-gs-lite:index>`
+* :doc:`HelloWorld xAPP  <ric-app-hw:index>`
 * :doc:`KPI monitoring <ric-app-kpimon:index>`
+* :doc:`QoE Predictor xApp <ric-app-qp:index>`
 * :doc:`RIC APP ML <ric-app-ml:index>`
 * :doc:`RIC Measurement Campaign (MC) xApp <ric-app-mc:index>`
+* :doc:`Traffic Steering xAPP <ric-app-ts:index>`
 
 
 Near Realtime RAN Intelligent Controller (RIC)
@@ -28,18 +32,15 @@ This project a initial RIC Platform to support xAPPs with limited support for O1
 More detailed function documentation can be found as follow:
 
 * :doc:`A1 <ric-plt-a1:index>`
-* :doc:`Alarm Go Library <ric-plt-alarm-go:index>`
 * :doc:`ASN.1 Documents <ric-plt-asn1-documents:index>`
 * :doc:`DBAAS <ric-plt-dbaas:index>`
 * :doc:`E2 <ric-plt-e2:index>`
 * :doc:`E2MGR <ric-plt-e2mgr:index>`
 * :doc:`GOLOG <com-golog:index>`
-* :doc:`HelloWorld xAPP  <ric-app-hw:index>`
 * :doc:`Jaegeradapter <ric-plt-jaegeradapter:index>`
 * :doc:`LOG <com-log:index>`
 * :doc:`nodeb-rnib <ric-plt-nodeb-rnib:index>`
 * :doc:`PYLOG <com-pylog:index>`
-* :doc:`QoE Predictor xApp <ric-app-qp:index>`
 * :doc:`Reasouce Status Manager <ric-plt-resource-status-manager:index>`
 * :doc:`RIC Message Router <ric-plt-lib-rmr:index>`
 * :doc:`Routing Manager <ric-plt-rtmgr:index>`
@@ -49,7 +50,6 @@ More detailed function documentation can be found as follow:
 * :doc:`Subscription Manager <ric-plt-submgr:index>`
 * :doc:`Tracelibcpp <ric-plt-tracelibcpp:index>`
 * :doc:`Tracelibgo <ric-plt-tracelibgo:index>`
-* :doc:`Traffic Steering xAPP <ric-app-ts:index>`
 * :doc:`Vespamgr <ric-plt-vespamgr:index>`
 
 
