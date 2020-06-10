@@ -46,7 +46,9 @@ intersphinx_mapping['ric-plt-xapp-frame'] = ('https://docs.o-ran-sc.org/projects
 intersphinx_mapping['ric-plt-asn1-documents'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-asn1-documents/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-streaming-protobufs'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-streaming-protobufs/en/%s' % branch, None)
 intersphinx_mapping['ric-plt-resource-status-manager'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-resource-status-manager/en/%s' % branch, None)
-
+intersphinx_mapping['ric-plt-xapp-frame'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-xapp-frame/en/%s' % branch, None)
+intersphinx_mapping['ric-plt-xapp-frame-py'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-xapp-frame-py/en/%s' % branch, None)
+intersphinx_mapping['ric-plt-xapp-frame-cpp'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-xapp-frame-cpp/en/%s' % branch, None)
 
 
 

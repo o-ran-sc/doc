@@ -151,6 +151,13 @@ The VESPA manager ,which uses the VES Agent (https://github.com/nokia/ONAP-VESPA
 * :doc:`Vespamgr Release-notes <ric-plt-vespamgr:release-notes>`
 
 
+xapp-frame is a simple framework for rapid development of RIC xapps, and supports various services essential for RIC xapps such as RESTful APIs, RMR (RIC Message Routing), database backend services and watching and populating config-map changes in K8S environment
+
+* :doc:`xapp-frame Release-notes <ric-plt-xapp-frame:release-notes>`
+
+.. * :doc:`xAPP C++ Release-notes <ric-plt-xapp-frame-cpp:release-notes>`
+.. * :doc:`xApp Python Release-notes<ric-plt-xapp-frame-py:release-notes>`
+
 
 Non-RealTime RAN Intelligent Controller (NONRTRIC) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

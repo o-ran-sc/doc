@@ -51,6 +51,9 @@ More detailed function documentation can be found as follow:
 * :doc:`Tracelibcpp <ric-plt-tracelibcpp:index>`
 * :doc:`Tracelibgo <ric-plt-tracelibgo:index>`
 * :doc:`Vespamgr <ric-plt-vespamgr:index>`
+* :doc:`xapp-frame <ric-plt-xapp-frame:index>`
+* :doc:`xAPP C++ <ric-plt-xapp-frame-cpp:index>`
+* :doc:`xApp Python <ric-plt-xapp-frame-py:index>`
 
 
 Non-RealTime RAN Intelligent Controller (NONRTRIC)
