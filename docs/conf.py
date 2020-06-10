@@ -2,6 +2,8 @@ from docs_conf.conf import *
 
 #branch configuration
 branch = 'latest'
+branch = 'Amber'
+branch = 'Bronze'
 
 linkcheck_ignore = [
       'http://localhost',
