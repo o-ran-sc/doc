@@ -23,7 +23,7 @@ Version history
 | 2019-11-31         | Amber              | CMCC               | Amber Release      |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-| 		     | 	                  | 	               |                    |
+| 2020-06-21         | Bronze             | CMCC               | Bronze Release     |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
 |                    |                    |                    |                    |
@@ -184,9 +184,9 @@ The O-RAN SC RIC Dashboard provides administrative and operator functions for a 
 O-RAN Central Unit (OCU) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-OpenLTE, which is a RAN Software Reference Design for a 4G TDD
+5G NR which is a RAN Software Reference Design for a 5G protocol stack
 
-* :doc:`Open LTE Release-notes <scp-ocu-openlte:release-notes>`
+.. * :doc:`Open LTE Release-notes <scp-ocu-openlte:release-notes>`
 
 
 O-RAN Distributed Unit High Layers (ODUHIGH) features

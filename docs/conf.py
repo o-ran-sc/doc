@@ -62,7 +62,9 @@ intersphinx_mapping['oam'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-oam/e
 intersphinx_mapping['portal-ric-dashboard'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-portal-ric-dashboard/en/%s' % branch, None)
 
 #OCU
-intersphinx_mapping['scp-ocu-openlte'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-scp-ocu-openlte/en/%s' % branch, None)
+#intersphinx_mapping['scp-ocu-openlte'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-scp-ocu-openlte/en/%s' % branch, None)
+intersphinx_mapping['scp-ocu-5gnr'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-scp-ocu-5gnr/en/%s' % branch, None)
+
 
 #ODUHIGH
 intersphinx_mapping['o-du-l2'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-l2/en/%s' % branch, None)
