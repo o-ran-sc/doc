@@ -83,8 +83,8 @@ The OCU is target an initial software deliverable with limited functionality. Fo
 
 More detailed function documentation can be found as follow:
 
-* :doc:`Open LTE <scp-ocu-openlte:index>`
-
+.. * :doc:`Open LTE <scp-ocu-openlte:index>`
+* :doc:`Open LTE <scp-ocu-5gnr:index>`
 
 O-RAN Distributed Unit High Layers (ODUHIGH)
 --------------------------------------------
