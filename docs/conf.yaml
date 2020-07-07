@@ -5,4 +5,5 @@ project: oran
 # Change this to ReleaseBranchName to modify the header
 version: Amber
 version: bronze
+default-version: bronze
 
