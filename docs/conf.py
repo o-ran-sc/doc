@@ -75,7 +75,7 @@ intersphinx_mapping['o-du-phy'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-
 
 
 #INF
-intersphinx_mapping['pti-rtp'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-pti-rtp/en/%s' % branch, None)
+intersphinx_mapping['pti-rtp'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-pti-rtp/en/%s' % stablebranch, None)
 
 #SIM
 intersphinx_mapping['sim-o1-interface'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-sim-o1-interface/en/%s' % branch, None)
