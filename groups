@@ -1,4 +1,5 @@
 # UUID                                                              	Group Name
 #
 add1d629e64dce7097223c93ca6e710c1460b5ba                            	GitHub Replication
+e5fe8b7d186022f0cc2ded0e33f2c59576802fed                            	saml/oran-gerrit-doc-committers
 ldap:cn=oran-gerrit-doc-committers,ou=Groups,dc=freestandards,dc=org	ldap/oran-gerrit-doc-committers
