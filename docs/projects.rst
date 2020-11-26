@@ -6,7 +6,7 @@
 
 
 O-RAN SC Projects
-===============================
+=================
 
 RAN Intelligent Controller Applications (RICAPP)
 ------------------------------------------------
