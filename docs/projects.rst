@@ -63,7 +63,7 @@ Non-RT RIC focus on feature functionality of A1-interface (consumer and provider
 More detailed function documentation can be found as follow:
 
 * :doc:`A1 Interface Simulator <sim-a1-interface:index>`
-* :doc:`Non-RT RIC Policy Agent <nonrtric:index>`
+* :doc:`Non-RT RIC Components <nonrtric:index>`
 * :doc:`Non-RT RIC Control Panel <nonrtric-controlpanel:index>`
 
 
