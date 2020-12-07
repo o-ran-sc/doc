@@ -63,7 +63,13 @@ Non-RT RIC focus on feature functionality of A1-interface (consumer and provider
 More detailed function documentation can be found as follow:
 
 * :doc:`A1 Interface Simulator <sim-a1-interface:index>`
-* :doc:`Non-RT RIC Policy Agent <nonrtric:index>`
+* :doc:`Non-RT RIC Components <nonrtric:index>`
+
+   + A1 Policy Management Service
+   + A1 Controller
+   + A1 Enrichment Information Coordinator
+   + rApp catalogue
+
 * :doc:`Non-RT RIC Control Panel <nonrtric-controlpanel:index>`
 
 
@@ -75,6 +81,7 @@ More detailed function documentation can be found as follow:
 
 * :doc:`OAM Operation and Maintenance <oam:index>`
 * :doc:`RIC Dashboard <portal-ric-dashboard:index>`
+* :doc:`Non-RT RIC Control Panel <nonrtric-controlpanel:index>`
 
 
 O-RAN Central Unit (OCU)
@@ -122,6 +129,7 @@ Initial simulators used for testing O-RAN NF interfaces.
 More detailed function documentation can be found as follow:
 
 * :doc:`SIM/O1-Interface <sim-o1-interface:index>`
+* :doc:`SIM/A1-Interface <sim-a1-interface:index>`
 
 
 Integration and Testing (INT)
