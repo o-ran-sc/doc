@@ -86,7 +86,7 @@ More detailed function documentation can be found as follow:
 
 O-RAN Central Unit (OCU)
 ------------------------
-The OCU is target an initial software deliverable with limited functionality. Focus on aa basic E2 interface to enable initial integration testing between RIC and OCU.
+The OCU is target an initial software deliverable with limited functionality. Focus on a basic E2 interface to enable initial integration testing between RIC and OCU.
 
 More detailed function documentation can be found as follow:
 
