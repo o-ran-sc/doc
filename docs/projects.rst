@@ -14,8 +14,9 @@ RICAPP includes open source sample xAPPs and platform applications that can we u
 
 More detailed function documentation can be found as follow:
 
-* :doc:`Alarm Go Library <ric-plt-alarm-go:index>`
-* :doc:`Admission Control xAPP <ric-app-admin:index>`
+.. * :doc:`Alarm Go Library <ric-plt-alarm-go:index>`
+.. * :doc:`Admission Control xAPP <ric-app-admin:index>`
+
 * :doc:`GS-lite Stream Processing Engine <com-gs-lite:index>`
 * :doc:`HelloWorld xAPP  <ric-app-hw:index>`
 * :doc:`KPI monitoring <ric-app-kpimon:index>`

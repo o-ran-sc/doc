@@ -39,10 +39,9 @@ RAN Intelligent Controller Applications (RICAPP) features
 
 .. * :doc:`Alarm Go Library Release-notes <ric-plt-alarm-go:release-notes>`
 
-The AC xAPP, which supports full closed loop control as well as report mode operation for admission control of SgNB Addition requests, reporting of metrics over VES, and configuration of single instance policies via the A1-Interface.
+.. The AC xAPP, which supports full closed loop control as well as report mode operation for admission control of SgNB Addition requests, reporting of metrics over VES, and configuration of single instance policies via the A1-Interface.
 
-* :doc:`Admission Control xAPP Release-notes <ric-app-admin:release-notes>`
-
+.. * :doc:`Admission Control xAPP Release-notes <ric-app-admin:release-notes>`
 
 GS-lite, which is an open-source, real-time, low-latency, high-throughput stream processing engine.
 It is a fork of cask/tigon (https://github.com/cdapio/tigon) maintained to serve the needs of RIC applications (currently MC xApp).
