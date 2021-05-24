@@ -69,7 +69,9 @@ More detailed function documentation can be found as follow:
    + A1 Policy Management Service
    + A1 Controller
    + A1 Enrichment Information Coordinator
-   + rApp catalogue
+   + Service Catalogue
+   + HealtCheck use case
+   + O-RU closed loop recovery use case
 
 * :doc:`Non-RT RIC Control Panel <nonrtric-controlpanel:index>`
 
