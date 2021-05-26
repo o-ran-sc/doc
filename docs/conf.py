@@ -60,6 +60,8 @@ intersphinx_mapping['sim-a1-interface'] = ('https://docs.o-ran-sc.org/projects/o
 #OAM
 intersphinx_mapping['oam'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-oam/en/%s' % branch, None)
 intersphinx_mapping['portal-ric-dashboard'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-portal-ric-dashboard/en/%s' % branch, None)
+intersphinx_mapping['TR069 Adapter'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-oam-tr069-adapter/en/%s' % branch, None)
+
 
 #OCU
 #intersphinx_mapping['scp-ocu-openlte'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-scp-ocu-openlte/en/%s' % branch, None)
