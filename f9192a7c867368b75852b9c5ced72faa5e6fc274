@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d3b480f7_e081f7ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000067
+      },
+      "writtenOn": "2021-05-28T09:57:37Z",
+      "side": 1,
+      "message": "DOC team will add each repo document to DOC master branch. \nIf everything work well, your repo document will be automatically created at https://readthedocs.org/projects/o-ran-sc-doc/\nI don\u0027t see any new document related to your repo created.\nplease let me know your repo name, so I can check the status. \nThank you.  ",
+      "revId": "f9192a7c867368b75852b9c5ced72faa5e6fc274",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    }
+  ]
+}
