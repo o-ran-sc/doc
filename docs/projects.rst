@@ -83,7 +83,7 @@ More detailed function documentation can be found as follow:
 * :doc:`OAM Operation and Maintenance <oam:index>`
 * :doc:`RIC Dashboard <portal-ric-dashboard:index>`
 * :doc:`Non-RT RIC Control Panel <nonrtric-controlpanel:index>`
-
+* :doc:`TR069 Adapter <oam-tr069-adapter:index>`
 
 O-RAN Central Unit (OCU)
 ------------------------
