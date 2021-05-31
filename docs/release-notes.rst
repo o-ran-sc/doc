@@ -174,6 +174,7 @@ OAM which provides reference implementation according to the O-RAN OAM (WG1) doc
 
 * :doc:`OAM Operation and Maintenance Release-notes <oam:release-notes>`
 * :doc:`TR069 Adapter Release-notes <oam-tr069-adapter:release-notes>`
+* :doc:`NF OAM Adopter Release-notes <oam-nf-oam-adopter:release-notes>`
 
 
 The O-RAN SC RIC Dashboard provides administrative and operator functions for a radio access network (RAN) controller. The web app is built as a single-page app using an Angular (version 8) front end and a Java (version 11) Spring-Boot (version 2.1) back end.

@@ -22,7 +22,6 @@ intersphinx_mapping['ric-app-qp'] = ('https://docs.o-ran-sc.org/projects/o-ran-s
 intersphinx_mapping['ric-app-ts'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-ts/en/%s' % branch, None)
 
 
-
 #(near realtime)RIC platform
 intersphinx_mapping['com-log'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-log/en/%s' % branch, None)
 intersphinx_mapping['com-golog'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-golog/en/%s' % branch, None)
@@ -51,16 +50,17 @@ intersphinx_mapping['ric-plt-xapp-frame-py'] = ('https://docs.o-ran-sc.org/proje
 intersphinx_mapping['ric-plt-xapp-frame-cpp'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-plt-xapp-frame-cpp/en/%s' % branch, None)
 
 
-
 #nonrt ric
 intersphinx_mapping['nonrtric'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-nonrtric/en/%s' % branch, None)
 intersphinx_mapping['nonrtric-controlpanel'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-portal-nonrtric-controlpanel/en/%s' % branch, None)
 intersphinx_mapping['sim-a1-interface'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-sim-a1-interface/en/%s' % branch, None)
 
+
 #OAM
 intersphinx_mapping['oam'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-oam/en/%s' % branch, None)
 intersphinx_mapping['portal-ric-dashboard'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-portal-ric-dashboard/en/%s' % branch, None)
 intersphinx_mapping['oam-tr069-adapter'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-oam-tr069-adapter/en/%s' % branch, None)
+intersphinx_mapping['oam-nf-oam-adopter'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-oam-nf-oam-adopter/en/%s' % branch, None)
 
 
 #OCU
@@ -71,6 +71,7 @@ intersphinx_mapping['scp-ocu-5gnr'] = ('https://docs.o-ran-sc.org/projects/o-ran
 #ODUHIGH
 intersphinx_mapping['o-du-l2'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-l2/en/%s' % branch, None)
 
+
 #ODULOW
 intersphinx_mapping['o-du-phy'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-o-du-phy/en/%s' % branch, None)
 
@@ -78,11 +79,15 @@ intersphinx_mapping['o-du-phy'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-
 #INF
 intersphinx_mapping['pti-rtp'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-pti-rtp/en/%s' % branch, None)
 
+
 #SIM
 intersphinx_mapping['sim-o1-interface'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-sim-o1-interface/en/%s' % branch, None)
+
 
 #INT
 intersphinx_mapping['it-dep'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-it-dep/en/%s' % branch, None)
 intersphinx_mapping['it-dev'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-it-dev/en/%s' % branch, None)
 intersphinx_mapping['it-test'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-it-test/en/%s' % branch, None)
 intersphinx_mapping['it-otf'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-it-otf/en/%s' % branch, None)
+
+
