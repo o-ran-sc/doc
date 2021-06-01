@@ -52,6 +52,24 @@
       "parentUuid": "7f85eb4a_40bbbd61",
       "revId": "f9192a7c867368b75852b9c5ced72faa5e6fc274",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47107cd3_f29487b2",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000103
+      },
+      "writtenOn": "2021-06-01T11:04:06Z",
+      "side": 1,
+      "message": "If I look at https://docs.o-ran-sc.org/en/latest/projects.html I see a summary list and some description of the functions in each of the projects. \nThis review is adding the new functions for NONRTRIC project in the D release. \nMore detailed information will be available in the NONRTRIC documentation by following the links directly to the documentation:\nhttps://docs.o-ran-sc.org/en/latest/projects.html\nhttps://docs.o-ran-sc.org/projects/o-ran-sc-nonrtric/en/latest/index.html\nhttps://docs.o-ran-sc.org/projects/o-ran-sc-portal-nonrtric-controlpanel/en/latest/index.html \n\nThe DOC project owns this page - so that is why you are asked to merge the change.",
+      "parentUuid": "288dff62_f59d719e",
+      "revId": "f9192a7c867368b75852b9c5ced72faa5e6fc274",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ]
 }
