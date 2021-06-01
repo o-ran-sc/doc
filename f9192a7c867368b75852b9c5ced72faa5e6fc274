@@ -34,6 +34,24 @@
       "parentUuid": "d3b480f7_e081f7ec",
       "revId": "f9192a7c867368b75852b9c5ced72faa5e6fc274",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "288dff62_f59d719e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000067
+      },
+      "writtenOn": "2021-06-01T06:56:01Z",
+      "side": 1,
+      "message": "I am confused here. Artifacts are not the scope of doc project, only document is. Your added lines to doc repo: \n   + A1 Policy Management Service\n   + A1 Controller\n   + A1 Enrichment Information Coordinator\n   + Non-RT-RIC App Catalogue\n   + Helm Chart Manager\n   + HealtCheck use case\n   + O-RU closed loop recovery use case\n\nThese new lines will shown on documentation page, and are not the format for documentation.",
+      "parentUuid": "7f85eb4a_40bbbd61",
+      "revId": "f9192a7c867368b75852b9c5ced72faa5e6fc274",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ]
 }
