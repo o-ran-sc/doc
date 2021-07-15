@@ -24,6 +24,7 @@ More detailed function documentation can be found as follow:
 * :doc:`RIC APP ML <ric-app-ml:index>`
 * :doc:`RIC Measurement Campaign (MC) xApp <ric-app-mc:index>`
 * :doc:`Traffic Steering xAPP <ric-app-ts:index>`
+* :doc:`Anomaly Detection xAPP <ric-app-ad:index>`
 
 
 Near Realtime RAN Intelligent Controller (RIC)

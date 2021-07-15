@@ -26,7 +26,10 @@ Version history
 | 2020-06-21         | Bronze             | CMCC               | Bronze Release     |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
+| 2020-12-21         | Cherry             | CMCC               | Cherry Release     |
 |                    |                    |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
+| 2021-07-15         | Dawn 	          | CMCC               | Dawn Release       |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
 
@@ -72,6 +75,12 @@ The Acumos xAPP adapter, which contains the code needed to use an existing Acumo
 The MC xAPP, which supports calculation of a number of metrics and KPIs based on X2 messages received from UEEC.
 
 * :doc:`RIC Measurement Campaign (MC) xApp Release-notes <ric-app-mc:release-notes>`
+
+
+Anomaly Detection (AD) is an xApp in the Traffic Steering O-RAN use case.
+
+* :doc:`Anomaly Detection xApp Release-notes <ric-app-ad:release-notes>`
+
 
 
 
