@@ -17,14 +17,15 @@ More detailed function documentation can be found as follow:
 .. * :doc:`Alarm Go Library <ric-plt-alarm-go:index>`
 .. * :doc:`Admission Control xAPP <ric-app-admin:index>`
 
+* :doc:`Anomaly Detection xAPP <ric-app-ad:index>`
 * :doc:`GS-lite Stream Processing Engine <com-gs-lite:index>`
 * :doc:`HelloWorld xAPP  <ric-app-hw:index>`
+* :doc:`HW-go xAPP <ric-app-hw-go:index>`
 * :doc:`KPI monitoring <ric-app-kpimon:index>`
 * :doc:`QoE Predictor xApp <ric-app-qp:index>`
 * :doc:`RIC APP ML <ric-app-ml:index>`
 * :doc:`RIC Measurement Campaign (MC) xApp <ric-app-mc:index>`
 * :doc:`Traffic Steering xAPP <ric-app-ts:index>`
-* :doc:`Anomaly Detection xAPP <ric-app-ad:index>`
 
 
 Near Realtime RAN Intelligent Controller (RIC)
@@ -66,15 +67,6 @@ More detailed function documentation can be found as follow:
 
 * :doc:`A1 Interface Simulator <sim-a1-interface:index>`
 * :doc:`Non-RT RIC Components <nonrtric:index>`
-
-   + A1 Policy Management Service
-   + A1 Controller
-   + A1 Enrichment Information Coordinator
-   + Non-RT-RIC App Catalogue
-   + Helm Chart Manager
-   + HealtCheck use case
-   + O-RU closed loop recovery use case
-
 * :doc:`Non-RT RIC Control Panel <nonrtric-controlpanel:index>`
 
 
@@ -84,11 +76,12 @@ The O-RAN-SC-OAM project provides reference implementation according to the O-RA
 
 More detailed function documentation can be found as follow:
 
+* :doc:`NF OAM Adopter <oam-nf-oam-adopter:index>`
+* :doc:`Non-RT RIC Control Panel <nonrtric-controlpanel:index>`
 * :doc:`OAM Operation and Maintenance <oam:index>`
 * :doc:`RIC Dashboard <portal-ric-dashboard:index>`
-* :doc:`Non-RT RIC Control Panel <nonrtric-controlpanel:index>`
 * :doc:`TR069 Adapter <oam-tr069-adapter:index>`
-* :doc:`NF OAM Adopter <oam-nf-oam-adopter:index>`
+
 
 
 O-RAN Central Unit (OCU)
@@ -135,8 +128,8 @@ Initial simulators used for testing O-RAN NF interfaces.
 
 More detailed function documentation can be found as follow:
 
-* :doc:`SIM/O1-Interface <sim-o1-interface:index>`
 * :doc:`SIM/A1-Interface <sim-a1-interface:index>`
+* :doc:`SIM/O1-Interface <sim-o1-interface:index>`
 
 
 Integration and Testing (INT)

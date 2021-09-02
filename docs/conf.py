@@ -21,6 +21,8 @@ intersphinx_mapping['ric-app-hw'] = ('https://docs.o-ran-sc.org/projects/o-ran-s
 intersphinx_mapping['ric-app-qp'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-qp/en/%s' % branch, None)
 intersphinx_mapping['ric-app-ts'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-ts/en/%s' % branch, None)
 intersphinx_mapping['ric-app-ad'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-ad/en/%s' % branch, None)
+intersphinx_mapping['ric-app-hw-go'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-hw-go/en/%s' % branch, None)
+
 
 #(near realtime)RIC platform
 intersphinx_mapping['com-log'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-com-log/en/%s' % branch, None)

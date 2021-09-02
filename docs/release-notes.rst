@@ -82,6 +82,10 @@ Anomaly Detection (AD) is an xApp in the Traffic Steering O-RAN use case.
 * :doc:`Anomaly Detection xApp Release-notes <ric-app-ad:release-notes>`
 
 
+This repository contains open-source code for a prototype HW-go xAPP for near real-time RAN Intelligent Controller which makes use of go Xapp Framework. 
+
+* :doc:`HW-go xAPP Release-notes <ric-app-hw-go:release-notes>`
+
 
 
 Near Realtime RAN Intelligent Controller (RIC) features
@@ -167,6 +171,7 @@ xapp-frame is a simple framework for rapid development of RIC xapps, and support
 .. * :doc:`xApp Python Release-notes<ric-plt-xapp-frame-py:release-notes>`
 
 
+
 Non-RealTime RAN Intelligent Controller (NONRTRIC) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -191,6 +196,7 @@ The O-RAN SC RIC Dashboard provides administrative and operator functions for a 
 * :doc:`RIC Dashboard Release-notes <portal-ric-dashboard:release-notes>`
 
 
+
 O-RAN Central Unit (OCU) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -207,12 +213,14 @@ O-DU Layer 2, which is O-DU layer intilaizations and exchange of F1 Setup Reques
 * :doc:`O-DU Layer 2 Release-notes <o-du-l2:release-notes>`
 
 
+
 O-RAN Distributed Unit Low Layers (ODULOW) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 O-DU Layer 1, which is the O-RAN FHI Lib built on top of DPDK to perform U-plane and C-plane functions according to the ORAN Fronthaul Interface specification between O-DU and O-RU. S-Plane support requires PTP for Linux version 2.0 or later The management plane is outside of the scope of this library implementation.
 
 * :doc:`O-DU Layer 1 Release-notes <o-du-phy:release-notes>`
+
 
 
 Infrastructure (INF) features
@@ -226,6 +234,7 @@ Realtime Platform, which implements a real time platform to deploy the O-CU and 
 .. Simulations(SIM) Amber release features contain:
 
 .. * :doc:`SIM/O1-Interface Release-notes <sim-o1-interface:release-notes>`
+
 
 
 Integration and Testing (INT) features
