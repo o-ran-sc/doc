@@ -146,7 +146,6 @@ More detailed function documentation can be found as follow:
 * :doc:`IT-OTF <it-otf:index>`
 * :doc:`IT-TEST <it-test:index>`
 
-
 Service Managerment and Orgestration(SMO)
 -----------------------------------------
 The SMO project implements the O1 and the O1/VES interface. The former is used for configuration and management of RAN Network Functions (NF) while the latter collects all the events that are reported by different RAN NFs.
@@ -155,7 +154,5 @@ More detailed function documentation can be found as follow:
 
 * :doc:`SMO-VES <smo-ves:index>`
 * :doc:`SMO O1 <smo-o1:index>`
-
-
 
 
