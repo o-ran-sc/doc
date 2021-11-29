@@ -145,6 +145,17 @@ More detailed function documentation can be found as follow:
 * :doc:`IT-OTF <it-otf:index>`
 * :doc:`IT-TEST <it-test:index>`
 
+Service Management and Orchestration (SMO)
+------------------------------------------------
+The SMO project will include implementations of the O1 (NETCONF and the VES), O2, R1, and A1 interface. It includes code that can be used for testing, demonstration, and integration of the O1 NETCONF and the O1 VES interface.
 
+More detailed function documentation can be found as follow:
+
+.. * :doc:`How to install the O1 interface<smo-o1-interface:index>`
+.. * :doc:`How to install the VES collector<smo-ves-collector:index>`
+
+
+* :doc:`How to test the O1 interface<smo-o1-interface-test:index>`
+* :doc:`How to test the VES collector<smo-ves-collector-test:index>`
 
 

@@ -262,31 +262,13 @@ IT-DEV includes the initial commit of the OTF platform code. Applications includ
 
 * :doc:`IT-Otf Release-notes <it-otf:release-notes>`
 
+Service Management and Orchestration (SMO) features
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. * :doc:`How to install the O1 interface <smo-o1-interface:release-notes>`
 
+.. The O1 interface supports the configuration and management of all the Network Functions (NF) in the RAN. In the E-release, the focus is on configuration and management of Network Slices in the O-DU.
 
+.. * :doc:`How to install the VES collector <smo-ves-collector:release-notes>`
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.. The VES interface supports the collection of events from all the NFs within the RAN. In the E-release, the focus is on collection of events related to Network Slicing.
