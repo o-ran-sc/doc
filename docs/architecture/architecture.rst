@@ -52,7 +52,10 @@ O-RU:
 O-RAN Radio Unit: a logical node hosting Low-PHY layer and RF processing based on a lower layer functional split.  This is similar to 3GPP’s “TRP” or “RRH” but more specific in including the Low-PHY layer (FFT/iFFT, PRACH extraction).  
 
 
-O1: 
+SMO:
+Service Management and Orchestration: Consists of multiple interfaces, including O1, O1*, O2, A1 and R1.
+
+O1:
 Interface between management entities in Service Management and Orchestration Framework and O-RAN managed elements, for operation and management, by which FCAPS management, Software management, File management shall be achieved. 
 
 

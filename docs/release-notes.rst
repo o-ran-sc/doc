@@ -265,8 +265,6 @@ IT-DEV includes the initial commit of the OTF platform code. Applications includ
 
 * :doc:`IT-Otf Release-notes <it-otf:release-notes>`
 
-
-
 Service Management and Orchestration (SMO) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -277,33 +275,3 @@ SMO O1 repository is for the implementation, installation, and use of the O1 int
 The O1/VES interface supports the monitoring side of SMO. The diagram below shows how the Network Elements interact with the O1/VES interface in the SMO.
 
 * :doc:`SMO-VES Release-notes <smo-ves:release-notes>`
-
-
-
-.. Simulations(SIM) Amber release features contain:
-
-.. * :doc:`SIM/O1-Interface Release-notes <sim-o1-interface:release-notes>`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
