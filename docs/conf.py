@@ -93,3 +93,8 @@ intersphinx_mapping['it-test'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-i
 intersphinx_mapping['it-otf'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-it-otf/en/%s' % branch, None)
 
 
+#SMO
+intersphinx_mapping['smo-ves'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-smo-ves/en/%s' % branch, None)
+
+
+
