@@ -146,5 +146,15 @@ More detailed function documentation can be found as follow:
 * :doc:`IT-TEST <it-test:index>`
 
 
+Service Managerment and Orgestration(SMO)
+-----------------------------------------
+Initial simulators used for testing O-RAN NF interfaces.
+
+More detailed function documentation can be found as follow:
+
+* :doc:`SMO-VES <smo-ves:index>`
+
+
+
 
 

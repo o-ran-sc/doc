@@ -32,6 +32,9 @@ Version history
 | 2021-07-15         | Dawn 	          | CMCC               | Dawn Release       |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
+| 2021-12-15         | E 	          | CMCC               | E Release       |
+|                    |                    |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
 
 
 Release Summary
@@ -263,6 +266,13 @@ IT-DEV includes the initial commit of the OTF platform code. Applications includ
 * :doc:`IT-Otf Release-notes <it-otf:release-notes>`
 
 
+
+Service Management and Orchestration (SMO)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The primary goal of the SMO project is to integrate different software artifacts of existing open-source projects creating a fully functional open-source Service Management and Orchestration (SMO). 
+
+* :doc:`SMO-VES Release-notes <smo-ves:release-notes>`
 
 
 
