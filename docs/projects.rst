@@ -119,6 +119,7 @@ Initial building blocks for infrastructure to run O-RAN NF components.
 
 More detailed function documentation can be found as follow:
 
+* :doc:`RTP O2 <pti-o2:index>`
 * :doc:`Realtime Platform <pti-rtp:index>`
 
 
@@ -150,9 +151,10 @@ Service Managerment and Orgestration(SMO)
 -----------------------------------------
 Initial simulators used for testing O-RAN NF interfaces.
 
-More detailed function documentation can be found as follow:
+The SMO supports a number of interfaces. These include O1, O1/VES, O2, A1, R1.
 
-* :doc:`SMO-VES <smo-ves:index>`
+* :doc:`SMO O1 <smo-o1:index>`
+* :doc:`SMO VES <smo-ves:index>`
 
 
 
