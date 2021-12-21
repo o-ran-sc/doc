@@ -80,6 +80,7 @@ intersphinx_mapping['o-du-phy'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-
 
 #INF
 intersphinx_mapping['pti-rtp'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-pti-rtp/en/%s' % branch, None)
+intersphinx_mapping['pti-o2'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-pti-o2/en/%s' % branch, None)
 
 
 #SIM
@@ -95,6 +96,6 @@ intersphinx_mapping['it-otf'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-it
 
 #SMO
 intersphinx_mapping['smo-ves'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-smo-ves/en/%s' % branch, None)
-
+intersphinx_mapping['smo-o1'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-smo-o1/en/%s' % branch, None)
 
 

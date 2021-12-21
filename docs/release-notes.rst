@@ -229,14 +229,14 @@ O-DU Layer 1, which is the O-RAN FHI Lib built on top of DPDK to perform U-plane
 Infrastructure (INF) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+RTP O2 repository implements a reference O2 IMS and DMS service to expose O2 interface to SMO.
+
+* :doc:`RTP O2 Release-notes <pti-o2:release-notes>`
+
+
 Realtime Platform, which implements a real time platform to deploy the O-CU and O-DU components.
 
 * :doc:`Realtime Platform Release-notes <pti-rtp:release-notes>`
-
-
-.. Simulations(SIM) Amber release features contain:
-
-.. * :doc:`SIM/O1-Interface Release-notes <sim-o1-interface:release-notes>`
 
 
 
@@ -270,12 +270,19 @@ IT-DEV includes the initial commit of the OTF platform code. Applications includ
 Service Management and Orchestration (SMO) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The primary goal of the SMO project is to integrate different software artifacts of existing open-source projects creating a fully functional open-source Service Management and Orchestration (SMO). 
+SMO O1 repository is for the implementation, installation, and use of the O1 interface of SMO. It uses the Software Defined Netowrk (SDN) Controller for Radio (SDNR) to implement the O1 interface. The software comes in the form of Docker containers that are setup using docker-compose.
+
+* :doc:`SMO O1 Release-notes <smo-o1:release-notes>`
+
+The O1/VES interface supports the monitoring side of SMO. The diagram below shows how the Network Elements interact with the O1/VES interface in the SMO.
 
 * :doc:`SMO-VES Release-notes <smo-ves:release-notes>`
 
 
 
+.. Simulations(SIM) Amber release features contain:
+
+.. * :doc:`SIM/O1-Interface Release-notes <sim-o1-interface:release-notes>`
 
 
 

@@ -120,6 +120,7 @@ Initial building blocks for infrastructure to run O-RAN NF components.
 More detailed function documentation can be found as follow:
 
 * :doc:`Realtime Platform <pti-rtp:index>`
+* :doc:`RTP O2 <pti-o2:index>`
 
 
 Simulations(SIM)
@@ -153,7 +154,7 @@ Initial simulators used for testing O-RAN NF interfaces.
 More detailed function documentation can be found as follow:
 
 * :doc:`SMO-VES <smo-ves:index>`
-
+* :doc:`SMO O1 <smo-o1:index>`
 
 
 
