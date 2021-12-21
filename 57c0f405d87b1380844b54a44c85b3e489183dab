@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ce054e37_e19ed771",
+        "filename": "docs/projects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1000382
+      },
+      "writtenOn": "2021-12-21T19:17:33Z",
+      "side": 1,
+      "message": "This line is a cut and paste from the SIM project. It should say something like\n\nThe SMO project implements the O1 and the O1/VES interface. The former is used for configuration and management of RAN Network Functions (NF) while the latter collects all the events that are reported by different RAN NFs.",
+      "revId": "57c0f405d87b1380844b54a44c85b3e489183dab",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    }
+  ]
+}
