@@ -149,7 +149,7 @@ More detailed function documentation can be found as follow:
 
 Service Managerment and Orgestration(SMO)
 -----------------------------------------
-Initial simulators used for testing O-RAN NF interfaces.
+The SMO project implements the O1 and the O1/VES interface. The former is used for configuration and management of RAN Network Functions (NF) while the latter collects all the events that are reported by different RAN NFs.
 
 More detailed function documentation can be found as follow:
 
