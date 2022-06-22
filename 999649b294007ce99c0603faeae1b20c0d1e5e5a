@@ -33,6 +33,24 @@
       "message": "Can you please add Issue-ID to the Commit Message.",
       "revId": "999649b294007ce99c0603faeae1b20c0d1e5e5a",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bffe10ad_a501e2a1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1001727
+      },
+      "writtenOn": "2022-06-22T19:08:41Z",
+      "side": 1,
+      "message": "Thank you for your comment. Ive added Issue-ID.\nIs it OK that I added \"Adding Tacker document\" issue\u0027s ID?",
+      "parentUuid": "f70c3350_6a3e88b6",
+      "revId": "999649b294007ce99c0603faeae1b20c0d1e5e5a",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ]
 }
