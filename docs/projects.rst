@@ -155,6 +155,7 @@ More detailed function documentation can be found as follow:
 
 * :doc:`SMO-VES <smo-ves:index>`
 * :doc:`SMO O1 <smo-o1:index>`
+* :doc:`SMO O2 <smo-o2:index>`
 
 
 
