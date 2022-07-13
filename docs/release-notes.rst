@@ -278,6 +278,9 @@ The O1/VES interface supports the monitoring side of SMO. The diagram below show
 
 * :doc:`SMO-VES Release-notes <smo-ves:release-notes>`
 
+This repository is for the implementation, installation, and use of the O2 interface of SMO. It uses the OpenStack Tacker to implement the O2 interface.
+
+* :doc:`SMO-O2 Release-notes <smo-O2:release-notes>`
 
 
 .. Simulations(SIM) Amber release features contain:
