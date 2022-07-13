@@ -35,7 +35,9 @@ Version history
 | 2021-12-15         | E 	          | CMCC               | E Release          |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
-
+| 2022-7-06          | F	          | CMCC               | F Release          |
+|                    |                    |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
 
 Release Summary
 ---------------
@@ -278,6 +280,9 @@ The O1/VES interface supports the monitoring side of SMO. The diagram below show
 
 * :doc:`SMO-VES Release-notes <smo-ves:release-notes>`
 
+SMO-O2 repository is for the implementation, installation, and use of the O2 interface of SMO. It uses the OpenStack Tacker to implement the O2 interface.
+
+* :doc:`SMO-O2 Release-notes <smo-o2:release-notes>`
 
 
 .. Simulations(SIM) Amber release features contain:
