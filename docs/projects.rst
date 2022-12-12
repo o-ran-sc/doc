@@ -158,5 +158,15 @@ More detailed function documentation can be found as follow:
 * :doc:`SMO O2 <smo-o2:index>`
 
 
+AI/ML Framework
+---------------
+the  AI/ML Framework is stand alone installation (separated from existing platform deployment) and initial AIML workflow modules.
 
+More detailed function documentation can be found as follow:
+
+* :doc:`AIMLFW Training Manager <aiml-fw-awmf-tm:index>`
+* :doc:`AIMLFW Dashboard <portal-aiml-dashboard:index>`
+* :doc:`AIMLFW Data Extraction <aiml-fw-athp-data-extraction:index>`
+* :doc:`AIMLFW Feature Store SDK <aiml-fw-athp-sdk-feature-store:index>`
+* :doc:`AIMLFW Model Storage SDK <aiml-fw-athp-sdk-model-storage:index>`
 
