@@ -1,4 +1,4 @@
-.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+﻿.. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. SPDX-License-Identifier: CC-BY-4.0
 .. Copyright (C) 2019 CMCC
 
@@ -15,131 +15,123 @@ O-RAN Alliance (https://www.o-ran.org/) members and contributors have committed 
 O-RAN SC is partnering with the O-RAN Alliance and Linux Foundation to support the software development for an open RAN solution that is available to everyone. The community will align with the architecture and specifications that are created in the O-RAN Alliance working groups to create a working software solution to enable an open and intelligent 5G RAN.
 
 
-New featuresin F release:
+New featuresin G release:
 
 Near-Real-time RIC X-APPs (RICAPP)
 ----------------------------------
 
-RICAPP F Release Feature Scope:
+RICAPP G Release Feature Scope:
 
-1) New xApps
-	KPIMON-GO by HCL
-2) Improved xApps:
-	RC (RAN Control) by Mavenir - implements subset of E2 SM RC Ver2.0
-	AD (Anomaly Detection) by HCL: Will identify a new anomaly type (area anomaly), use geo-location as a feature. Dependency on Data Stream from KPIMON to influxDB. (Currently AD is working on Static data).
-        QP (QoE Predictor) by HCL: Include prediction for current serving cell, incorporate predicted load as a feature, provide sequence of predictions.
-        TS (Traffic Steering) by UTFPR (University, Parana, Brazil): Call RC xApp to trigger UE handover, improvements in traffic steering logic.
-        Bouncer by HCL: Increase performance and functional testing capabilities; continue identifying RIC platform bottlenecks.
-        HW (HelloWorld) demo xApps in C++, go and python by AT&T and Samsung: Add usage of more platform features, update usage of platform features that are evolving.
-3) VIAVI RIC test tool is used to test Traffic Steering use case.
+1) New HW-Rust xApp to support RUST framework
+2) HW(python) - RIC Subscription using python xApp framework 
+3) RC xApp - GRPC interface support on RC xApp
+4) ouncer xApp - RIC Benchmarking new features addition
+5) KPIMON-GO xApp – Version 2.0
+6) AD & QP xApp – InfluxDB database integration to fetch data.
 
 
 
 Near-Real-time RAN Intelligent Controller Platform (E2 Interface) (RICPLT)
 --------------------------------------------------------------------------
 
-RICPLT F Release Feature Scope:
-1) Updated from E2APv1.1 to E2APv2.0 for the existing supported E2 procedures.
+RICPLT G Release Feature Scope:
 
-2) Additionally E2 configuration transfer procedures (in E2 setup and via explicit E2 Node Configuration Update) are now supported.
-3) Enhancements in the handling of E2 disconnect+connect cycles and in SCTP stream handling
-4) xApps can now query the list of RAN functions by E2SM OID (and nodeb ID)
-5) The reimplementation of the A1 mediator in golang has proceeded, but is not yet ready and not yet replacing the existing python implementation
-6) Switch from Redis 5 to Redis 6 - primarily due to Redis 5 EOL
-7) The ric deployment is now possible without the it/dep repo
-8) More information in the debug interface of the subscription manager (which had some small adaptations for E2APv2.0, but these changes are not visible to xApps using the E2 subscription manager REST interface)
-9) A new influxdb wrapper as component stslgo (shared time-series layer "golang")
-10) Bug fixes as per link. Bugs relevant to production (i.e., not test) code: RIC-903 DefaultUser setup fails when authentication is enabled for InfluxDB; RIC-895 missing static route entries for service update messages (from E2T to E2M and back); RIC-889 Subscription Manager Swagger YAML file is wrong; RIC-872 RMR routing statistic data printout crash; RIC-885 sdlgo multi-namespace SDL event namespace filter issue; RIC-880 Wrong date in sdl (C++) rpm spec file; RIC-873 SDLCLI get - writes wrongly results to stderr in success case; RIC-862 xapp-frame-py caching of error code data not happening (was: Python RMR Memory Leak); RIC-869 SDLCLI healthcheck - Redis sentinel status is wrong
-
+1) For the G release of the near-RT RIC we do only limited integration testing: only the use cases: deploy RIC, deploy xApp and make E2 connection are to be tested.
+2) Filled in end-of-release checklist : Release criteria checklist - TODO
 
 
 Non-Real-time RIC (A1 Interface) (NONRTRIC)
 -------------------------------------------
 
-NONRTRIC F Release Functions:
+NONRTRIC G Release Functions:
 
-1) Study & prototype Coordinated Service Exposure (SE)
-        Continue SE contribution building on the manual approaches already studied/completed.
-        Create/apply K8S configurations to isolate platform services and rApp microservices, then configure controlled secure access between service
-        Prototype CAPIF compliant API for Service/rApp registration/discovery, and service provider/consumer registration/configuration
-2) Data Management & Exposure (DME):
-        Pre-spec O1 PM via pre-spec R1 DME demo
-        Configure & connect to PM data - collected by SMO (ONAP)
-        Collect, Filter & Coordinate Delivery of PM data from DMaaP/Kafka to rApps over R1 (ICS)
-3) General activities
-        Continue to provide spec-compliant implementation of A1-Policy & A1-EI functions
-        NONRTRIC repo re-org
-        Continue to integrate and deploy SMO/NONRTRIC platform/rApps in OSC integration env.
-        Continue to expand NONRTRIC test platform & testsets
-        Show various versions rApps implemented/deployed as holistic “Automation Compositions” (ref ONAP ACM)
-        Continue to provide & integrate strawman rApps to comply with OSC RSAC integration usecases.
+Count of Epics (20 issues), User Stories, Tasks, and Issues:  (455 issues)
+
+1) R1 Service Exposure & Management
+	Continue work of Service execution platform extensions (K8s, Istio, Keycloak, OPA, Gateway) to enable service isolation & exposure
+	Extend Release F prototyping of 3GPP CAPIF-aligned Service Exposure Manager function (& API)
+
+2) R1 Data Management & Exposure
+	Align with emerging proposals for R1-DME where possible
+	R1 DME Data Catalog support in NONRTRIC ICS 
+	R1 Data delivery & filtering (kafka & REST)
+
+3) rApp Manager
+
+	Build on ONAP “Automation Composition” model & platform to implement rApp use cases
+	Demonstrate controlled on-boarding & LCM rApps with & without µService
+	Overlap with Service Exposure work to examine role of an rApp Manager to support controlled exposure & LCM of µService and non-µService parts of an rApp
+	Investigate where parts of rApp executes in KNative environment (e.g. ML model part of an rApp)
+
+4) Continue A1-Policy & A1-Enrichment-Information evolution (& R1-A1)
+	A1 Spec evolution
+	Southbound: A1 Interface
+	Northbound: R1-A1(P) & R1-DME Interfaces
+
+
+5) Sample use cases (rApps)
+	Requirements Drivers for rApp/R1 development
+	High degree of cross-project integration activity
+
+
+6) Testing, Maintenance & Housekeeping
+	Function Test & Integration Test environment,
+	Support integration, deployment & configuration of SMO/Non-RT-RIC related functions & usecases in OSC Integration env.
+	Project coordination, Documentation, Delivery, Reporting, Cross-project alignment, Community demos, O-RAN Standardization support, etc.
 
 
 
 OAM (O1 Interface)
 ------------------
 
-OAM F Release Feature Scope:
+OAM G Release Feature Scope:
 
-1) Providing an abstract topology for rApp and CNF deployment
-	Topology links are related to the following Interfaces: A1, E1, E2, F1, N1, N2, N3, O1, O2, OFH-CUSM
-	Topology Node are related to the following components: SMO, 5G Core, RAN, fronthaul gateway, UE
-2) Topology Generator, Topology Reader
-3) Enhancing automated test cases validating the end-to-end message flows related to OAM interfaces (O1, OpenFronthaul M-Plane)
-        Adding Wireshark for traffic flow analysis
+1) support of O-RAN WG10 VES message bodies
+2) update of OAM-Controller to ODL version Sulfur
+3) Note: team decided to go with Java11 - Java 17 would be possible but is pushed out to next release.
+4) update to keycloak version 18
+5) even more secure keycloak configuration
+6) there is a request for a "bare-metal" deployment which is not in scope of O-RAN, but still useful - also for development and module test
+7) support of AI/ML based on RSAC and other input.
+8) support of Tacker team
 
 
 
 O-RAN Central Unit (OCU)
 ------------------------
 
-OCU F Release Feature Scope:
+OCU G Release Feature Scope:
 
 1) Radisys Commercial CU is being used as a test fixture for E2E testing
 2) This is containerized CU image with following
-        Release version 2.5.3
-        NG interface with SOCKET mode and veth type
-        F1 interface with SOCKET mode and veth type
-        E2 interface support
-        Software Crypto
+	Release version 2.5.3
+	NG interface with SOCKET mode and veth type
+	F1 interface with SOCKET mode and veth type
+	E2 interface support
+	Software Crypto
 
 
 O-DU High
 ---------
 
-O-DU High F Release Feature Scope:
+O-DU High G Release Feature Scope:
 
-1) HARQ framework support
-2) Scheduler enhancement
-3) Mobility (Inter-DU handover) support
-4) Idle mode paging support
-5) E2AP upgrade to v2.0
-6) End to end integration support
-
-
-
-O-DU Low
---------
-
-O-DU Low F Release Feature Scope:
-
-The O-DU Low F release adds support for Massive MIMO, URLLC and it is based on the commercial FlexRan 21.11 release. This release is an incremental improvement over the E-maintenance release code released on March of this year and that still needs to be integrated with the RSYS O-DU High code.
-
-The F release can be used for end to end testing and it is based on the E maintenance release that was used for the 2021 November US O-RAN Plugfest and tested in conjuction with 2 stack partners and 2 different Test equipment vendors. The Front Haul Interface was also tested for compliance using Keysight's Front Haul Test equipment.
-
-Container images and deployment instructions TBD
+1) DRX support
+2) Mobility (Inter-CU handover) support
+3) code clean-up and coverage
+4) latest specification support for all modules and interfaces (AAD WG8)
+5) End to end integration support
 
 
 
 Simulators (SIM)
 ----------------
 
-SIM F Release Feature Scope:
+SIM G Release Feature Scope:
 
-1) Provide topology-service image that exposes a topology
-2) Provide a tool that generates a docker-compose file to start a simulated topology based on a topology file provided by the OAM project
-3) Keep alignment with latest O-RAN specifications for O1 and E2
-4) Preparations for code-coverage for the C/C++ code, will spill to G release because important code modifications are needed for Sonar integration
+1) keep alignment of the O1 Simulator with latest YANG models
+2) E2 Simulator improvements (especially to the deployment/build procedures)
+3) NS3-E2 Simulator integration in Gerrit
 
 
 
@@ -157,24 +149,35 @@ INF F Release Feature Scope:
 Integration and Test (INT)
 --------------------------
 
-INT F Release Feature Scope: 
+INT G Release Feature Scope: 
 
-1) To set up test automation that can run at release time to verify features and integration (initial efforts to make use of the Open Test Framework were incomplete due to resource issue)
-2) To add CI/CD Jenkins job against the it/dep repository to start regular validation of OSC components installation/deployment and corresponding health check, which also lay the foundation for future test cases implementation (across OSC components, end-to-end use cases, etc.)
-3) Work with OSC open labs (US east coast, US west coast, Asia Pacific) to facilitate community testing.
-4) Explore the POWDER testbed for OSC integration test needs.
+1) Extend MultiOS support: add Debian as the base OS
+2) Enable the multiple deployment scenarios for Debian based image:
+	AIO-SX, AIO-DX, AIO-DX + workers,  standard, Distributed Cloud
+3) Align INF O2 implementation to the latest O2 spec.
 
 
 Service Management and Orchestration  (SMO)
 -------------------------------------------
 
-SMO F Release Feature Scope: 
+SMO G Release Feature Scope: 
 
-1) O1/VES interface
-        Add support for StdDefined messages.
-        Expand on the list of PM counters supported
-2) O2 interface
-        Tacker project will commit VNF support
+1) The focus for the G release in SMO is interoperability. Every sub-project within SMO has at least one item that focuses on interoperating with one other entity outside of SMO. For example,
+	On the O1 interface, the focus is on trying to bring-up O-DU using NETCONF and YANG models defined for O-DU.
+	On the O1/VES interface, it is ability to generate network slicing PM events in the O-DU, and the ability to receive them in SMO dashboard, and store them in InfluxdB.
+	On the O2 interface, it will be the ability to instantiate an instance of a Network Function (NF) like the O-DU in the O-Cloud.
+2) Separate from this, each sub-project within SMO has other features/capabilities it will address as part of the G-release. For details please refer to the minutes of the SMO meeting here.
+
+
+AI/ML Framework
+---------------
+
+AI/ML Framework G Feature Scope:
+
+1) Stand alone installation with Kubeflow as a Training host backend and Kserve as a Inference host backend
+2) Initial Training Job Management ( Data extraction / feature management)
+3) Sample ML pipeline and ML xApp : QoE Prediction model using LSTM with data from ricapp/qp
+
 
 
 
