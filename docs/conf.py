@@ -99,4 +99,10 @@ intersphinx_mapping['smo-ves'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-s
 intersphinx_mapping['smo-o1'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-smo-o1/en/%s' % branch, None)
 intersphinx_mapping['smo-o2'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-smo-o2/en/%s' % branch, None)
 
+#AIMLFW
+intersphinx_mapping['aiml-fw-awmf-tm'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-aiml-fw-awmf-tm/en/%s' % branch, None) 
+intersphinx_mapping['portal-aiml-dashboard'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-portal-aiml-dashboard/en/%s' % branch, None)
+intersphinx_mapping['aiml-fw-athp-data-extraction'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-aiml-fw-athp-data-extraction/en/%s' % branch, None)
+intersphinx_mapping['aiml-fw-athp-sdk-feature-store'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-aiml-fw-athp-sdk-feature-store/en/%s' % branch, None)
+intersphinx_mapping['aiml-fw-athp-sdk-model-storage'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-aiml-fw-athp-sdk-model-storage/en/%s' % branch, None)
 
