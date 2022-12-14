@@ -169,4 +169,6 @@ More detailed function documentation can be found as follow:
 * :doc:`AIMLFW Data Extraction <aiml-fw-athp-data-extraction:index>`
 * :doc:`AIMLFW Feature Store SDK <aiml-fw-athp-sdk-feature-store:index>`
 * :doc:`AIMLFW Model Storage SDK <aiml-fw-athp-sdk-model-storage:index>`
+* :doc:`AIMLFW Kubeflow adapter <aiml-fw-athp-tps-kubeflow-adapter:index>`
+* :doc:`AIMLFW dep <aiml-fw-aimlfw-dep:index>`
 
