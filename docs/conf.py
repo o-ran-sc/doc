@@ -107,6 +107,7 @@ intersphinx_mapping['aiml-fw-athp-sdk-feature-store'] = ('https://docs.o-ran-sc.
 intersphinx_mapping['aiml-fw-athp-sdk-model-storage'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-aiml-fw-athp-sdk-model-storage/en/%s' % branch, None)
 intersphinx_mapping['aiml-fw-athp-tps-kubeflow-adapter'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-aiml-fw-athp-tps-kubeflow-adapter/en/%s' % branch, None)
 intersphinx_mapping['aiml-fw-aimlfw-dep'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-aiml-fw-aimlfw-dep/en/%s' % branch, None)
+intersphinx_mapping['ric-app-qp-aimlfw'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-ric-app-qp-aimlfw/en/%s' % branch, None)
 
 
 

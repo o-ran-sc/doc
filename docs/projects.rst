@@ -171,4 +171,5 @@ More detailed function documentation can be found as follow:
 * :doc:`AIMLFW Model Storage SDK <aiml-fw-athp-sdk-model-storage:index>`
 * :doc:`AIMLFW Kubeflow adapter <aiml-fw-athp-tps-kubeflow-adapter:index>`
 * :doc:`AIMLFW dep <aiml-fw-aimlfw-dep:index>`
+* :doc:`AIMLFW QoE Prediction assist xApp <ric-app-qp-aimlfw:index>`
 
