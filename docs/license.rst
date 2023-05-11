@@ -15,7 +15,7 @@ The O-RAN Software Community is a Linux Foundation project supported and funded 
 
 O-RAN Software License
 ----------------------
-The O-RAN Specification Code Project is an O-RAN Alliance project. Its objective is to allow contributions that will acknowledge essential patents. The project leverages the `O-RAN Software License <https://static1.squarespace.com/static/5ad774cce74940d7115044b0/t/5d510f6927cc360001d337e2/1565593453879/O-RAN+Software+License+v.1.0_6-11-19_clean.pdf>`_.
+The O-RAN Specification Code Project is an O-RAN Alliance project. Its objective is to allow contributions that will acknowledge essential patents. The project leverages the `O-RAN Software License <https://assets-global.website-files.com/60b1962ffda0a42f779c765b/60d700623d931ee5ed9093d2_O-RAN%2BSoftware%2BLicense%2Bv.1.0_6-11-19_clean.pdf>`_.
 
 
 Creative Commons Attribution 4.0 International License
