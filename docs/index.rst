@@ -7,7 +7,7 @@
 The O-RAN Software Community (SC) Documentation.
 
 
-Welcome to O-RAN SC G Release Documentation Home
+Welcome to O-RAN SC F Release Documentation Home
 ================================================
 
 O-RAN Alliance (https://www.o-ran.org/) members and contributors have committed to evolving Radio Access Networks (RAN) around the world. Future RANs will be built on a foundation of virtualized network elements, white-box hardware and standardized interfaces that fully embrace O-RAN’s core principles of intelligence and openness. An ecosystem of innovative new products is already emerging that will form the underpinnings of the multi-vendor, interoperable, autonomous RAN, envisioned by many in the past, but only now enabled by the global industry-wide vision, commitment and leadership of O-RAN Alliance members and contributors.
@@ -15,92 +15,93 @@ O-RAN Alliance (https://www.o-ran.org/) members and contributors have committed 
 O-RAN SC is partnering with the O-RAN Alliance and Linux Foundation to support the software development for an open RAN solution that is available to everyone. The community will align with the architecture and specifications that are created in the O-RAN Alliance working groups to create a working software solution to enable an open and intelligent 5G RAN.
 
 
-New featuresin G release:
+New featuresin H release:
 
 Near-Real-time RIC X-APPs (RICAPP)
 ----------------------------------
 
-RICAPP G Release Feature Scope:
+RICAPP H Release Feature Scope:
 
-1) New HW-Rust xApp to support RUST framework
-2) HW(python) - RIC Subscription using python xApp framework 
+1) New HW-Rust xApp to support RUST framework.
+2) New ad-cell xApp to detect cell level anomaly.
 3) RC xApp - GRPC interface support on RC xApp
-4) ouncer xApp - RIC Benchmarking new features addition
-5) KPIMON-GO xApp – Version 2.0
-6) AD & QP xApp – InfluxDB database integration to fetch data.
-
+4) Bouncer xApp - RIC Benchmarking new features addition.
+5) KPIMON-GO xApp – New Version
 
 
 Near-Real-time RAN Intelligent Controller Platform (E2 Interface) (RICPLT)
 --------------------------------------------------------------------------
 
-RICPLT G Release Feature Scope:
+RICPLT H Release Feature Scope:
 
-1) For the G release of the near-RT RIC we do only limited integration testing: only the use cases: deploy RIC, deploy xApp and make E2 connection are to be tested.
-2) Filled in end-of-release checklist : Release criteria checklist - TODO
+1) E2 reset (from E2 node to RIC), E2 subscription delete required, A1 policy status notifications
+2) Preparation of feature for I release, e.g., include xApps in subscription delete required decision
+
+For the H release of the near-RT RIC we do only limited integration testing: only the use cases: deploy RIC, deploy xApp, make E2 connection, get list of A1 policies has been tested.
+
 
 
 Non-Real-time RIC (A1 Interface) (NONRTRIC)
 -------------------------------------------
 
-NONRTRIC G Release Functions:
+NONRTRIC H Release Functions:
 
-Count of Epics (20 issues), User Stories, Tasks, and Issues:  (455 issues)
-
-1) R1 Service Exposure & Management
-	Continue work of Service execution platform extensions (K8s, Istio, Keycloak, OPA, Gateway) to enable service isolation & exposure
-	Extend Release F prototyping of 3GPP CAPIF-aligned Service Exposure Manager function (& API)
-
-2) R1 Data Management & Exposure
-	Align with emerging proposals for R1-DME where possible
-	R1 DME Data Catalog support in NONRTRIC ICS 
-	R1 Data delivery & filtering (kafka & REST)
-
-3) rApp Manager
-
-	Build on ONAP “Automation Composition” model & platform to implement rApp use cases
-	Demonstrate controlled on-boarding & LCM rApps with & without µService
-	Overlap with Service Exposure work to examine role of an rApp Manager to support controlled exposure & LCM of µService and non-µService parts of an rApp
-	Investigate where parts of rApp executes in KNative environment (e.g. ML model part of an rApp)
-
-4) Continue A1-Policy & A1-Enrichment-Information evolution (& R1-A1)
-	A1 Spec evolution
-	Southbound: A1 Interface
-	Northbound: R1-A1(P) & R1-DME Interfaces
-
-
-5) Sample use cases (rApps)
-	Requirements Drivers for rApp/R1 development
-	High degree of cross-project integration activity
-
-
-6) Testing, Maintenance & Housekeeping
-	Function Test & Integration Test environment,
-	Support integration, deployment & configuration of SMO/Non-RT-RIC related functions & usecases in OSC Integration env.
-	Project coordination, Documentation, Delivery, Reporting, Cross-project alignment, Community demos, O-RAN Standardization support, etc.
-
+1) Consolidated & Improved RAN PM data exposure in new repo for RAN PM functions
+        Adds 4 new services for RAN PM processing
+        Lots of work on deployment scripts/charts, testing, CI, and documentation
+2) (R1) Service Exposure & Management (SME)
+        CAPIF Aligned Service Registry & Discovery
+        Continued work of Service execution platform extensions (K8s, Istio, Keycloak, OPA, Gateway) to enable and enforce service isolation & exposure
+        Controlled access & exposure of service to/from rApps
+3) (R1) Data Management & Exposure (DME)
+        Small updates to Information Coordination Service – studying alignment with R1 proposals
+        File-based PM data → Kafka/InfluxDB/Minio
+        Including parsing, filtering & delivery
+        ref. PM Data exposure above
+4) rApp Management
+        Started work on a new rApp Manager functions – more in next release
+        LCM for rApps: Building on ONAP "Automation Composition" model & platform to implement rApp use cases
+                Added a 'KServe Participant'
+                        Inference Services in rApps
+                        Now supports KServe-based AI/ML rApps
+                Added an 'A1 Policy Participant'
+        Overlap with Service Exposure work to examine role of an rApp Manager to support controlled access to and exposure of Services
+        Overlap with Data Exposure work to examine role of an rApp Manager to support controlled access to and exposure of Data types
+5) Continued A1-Policy & A1-Enrichment-Information evolution (& R1-A1)
+        A1-Policy work in ONAP (continues in ONAP London) - candidate for R1-A1(P)
+                Numerous updates to improve security
+                Improved support fine-grained policy-based access control
+                Removed DMaaP NBI
+        A1-EI management as part of DME - candidate for how to include A1-EI in R1-DME
+        ref. DME work above
+6) Demonstrated ASD-based CNF LCM
+        ONAP SO CNFM in standalone mode
+7) Sample use cases (rApps)
+        Requirements Drivers for rApp/R1 development
+8) Testing, Maintenance & Housekeeping
+        3PP update – esp. Springboot 3 & JDK 17
+        Function Test & Integration Test environment,
+                Lots of new test cases, and new ONAP L & OSC H test profiles
+        Continue integration, deployment & configuration of SMO/Non-RT-RIC related functions & usecases in OSC Integration environment.
+        Project coordination, Documentation, Delivery, Reporting, Cross-project alignment, Community demos, O-RAN Standardization support, etc.
 
 
 OAM (O1 Interface)
 ------------------
 
-OAM G Release Feature Scope:
+OAM H Release Feature Scope:
 
-1) support of O-RAN WG10 VES message bodies
-2) update of OAM-Controller to ODL version Sulfur
-3) Note: team decided to go with Java11 - Java 17 would be possible but is pushed out to next release.
-4) update to keycloak version 18
-5) even more secure keycloak configuration
-6) there is a request for a "bare-metal" deployment which is not in scope of O-RAN, but still useful - also for development and module test
-7) support of AI/ML based on RSAC and other input.
-8) support of Tacker team
+1) Updates according to O-RAN Operations and Maintenance Interface Specification 8.0 (O-RAN.WG10.O1-Interface.0-v08.00)    October 2022
+        Please see H-Release for further details
+2) Hardening the solution by introducing a "SMO-gateway".
+3) Add a FlowManagement Component.
 
 
 
 O-RAN Central Unit (OCU)
 ------------------------
 
-OCU G Release Feature Scope:
+OCU H Release Feature Scope:
 
 1) Radisys Commercial CU is being used as a test fixture for E2E testing
 2) This is containerized CU image with following
@@ -114,31 +115,56 @@ OCU G Release Feature Scope:
 O-DU High
 ---------
 
-O-DU High G Release Feature Scope:
+O-DU High H Release Feature Scope:
 
-1) DRX support
-2) Mobility (Inter-CU handover) support
-3) code clean-up and coverage
-4) latest specification support for all modules and interfaces (AAD WG8)
-5) End to end integration support
+1) Odu High interfaces alignment to the latest specification & New design with multi-scheduler algorithm support
+        Status: Completed
+        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-488
+2) Integration of ODU-High with intel L1
+        Status: Spread over multiple releases, to be continued in the next release
+        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-475
+3) Inter CU Handover
+        Status: Completed
+        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-463
+4) E2 interface enhancement
+        Status: Completed
+        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-510
+
+
+
+O-DU Low
+--------
+
+O-DU Low H Release Feature Scope:
+
+The O-DU Low H release is the same as the F Release and G Release that added support for Massive MIMO, URLLC and it is based on the commercial FlexRan 21.11 release.  
+
+The O-DU Low H, G and F Release code is an Intel contribution in collaboration with Tieto Poland for the source code releases in the O-RAN gerrit and for the binary blobs contributed via GitHub.
+
+For the documentation preparation of the H, F and G release Intel worked with collaboration from Fransiscus Bimo and Professor Ray-Guang Cheng from National Taiwan University of Science and Technology (NTUST).  
+
+The H, G and F release are being used for end to end testing and it is based on the E maintenance release that was used for the 2021 November US O-RAN Plugfest and tested in conjuction with 2 stack partners and 2 different Test equipment vendors. The Front Haul Interface was also tested for compliance using Keysight's Front Haul Test equipment.
+
+Container images and deployment instructions are to be provided later
 
 
 
 Simulators (SIM)
 ----------------
 
-SIM G Release Feature Scope:
+SIM H Release Feature Scope:
 
-1) keep alignment of the O1 Simulator with latest YANG models
-2) E2 Simulator improvements (especially to the deployment/build procedures)
-3) NS3-E2 Simulator integration in Gerrit
+1) Updated simulated O-RU YANG models according to latest release (March 2023) OpenFronthaul Management Plane specification
+2) Implement the Monitoring NETCONF connectivity feature for the O-RUs, according to chapter 6.7 (Monitoring NETCONF connectivity) in O-RAN.WG4.MP.0-R003-v11.00
+3) Created a mechanism to locally build simulated O-DU with 3GPP YANG models
+4) No new contributions for the E2 Simulator
 
 
 
 Infrastructure (INF)
 --------------------
 
-INF F Release Feature Scope:  
+INF H Release Feature Scope:  
 
 1) Enable the 2 AIO severs with additional worker nodes deployment scenario
 2) Major components upgrade
@@ -149,34 +175,47 @@ INF F Release Feature Scope:
 Integration and Test (INT)
 --------------------------
 
-INT G Release Feature Scope: 
+INT H Release Feature Scope: 
 
-1) Extend MultiOS support: add Debian as the base OS
-2) Enable the multiple deployment scenarios for Debian based image:
-	AIO-SX, AIO-DX, AIO-DX + workers,  standard, Distributed Cloud
-3) Align INF O2 implementation to the latest O2 spec.
+1) Convert existing RICPLT/RICAPP Robot test cases in it/test repo to be executed with XTesting, which should automate the deployment of RIC platform, onboarding an xApp, and execute test cases all together.
+2) Wind River may contribute XTesting test cases on the o2 repo
+3) Specific to the Asia Pacific Open Lab:
+        Completing E2 setup procedure between OSC Near-RT RIC and OAI gNb.
+        Incorporate E2AP v2 in OAI CU for connection between OAI CU and OSC Near-RT RIC.
+        Verify data exchange between netconf and ves between OAI CU and OSC SMO.
+        Testing C-plane in F1 interface connection between OAI CU and OSC DU.
+
 
 
 Service Management and Orchestration  (SMO)
 -------------------------------------------
 
-SMO G Release Feature Scope: 
+SMO H Release Feature Scope: 
 
-1) The focus for the G release in SMO is interoperability. Every sub-project within SMO has at least one item that focuses on interoperating with one other entity outside of SMO. For example,
-	On the O1 interface, the focus is on trying to bring-up O-DU using NETCONF and YANG models defined for O-DU.
-	On the O1/VES interface, it is ability to generate network slicing PM events in the O-DU, and the ability to receive them in SMO dashboard, and store them in InfluxdB.
-	On the O2 interface, it will be the ability to instantiate an instance of a Network Function (NF) like the O-DU in the O-Cloud.
-2) Separate from this, each sub-project within SMO has other features/capabilities it will address as part of the G-release. For details please refer to the minutes of the SMO meeting here.
+1) Automated API Conformance testing
+2) Alignment with O-RAN O2 DMS ETSI NFV Profile.
+3) Refresh SDNR image to the latest on SMO O1 project.
+
 
 
 AI/ML Framework
 ---------------
 
-AI/ML Framework G Feature Scope:
+AI/ML Framework H Feature Scope:
 
-1) Stand alone installation with Kubeflow as a Training host backend and Kserve as a Inference host backend
-2) Initial Training Job Management ( Data extraction / feature management)
-3) Sample ML pipeline and ML xApp : QoE Prediction model using LSTM with data from ricapp/qp
+1) Diversify training data source for Training host
+        Obtaining training data from DME in Non-RT RIC 
+        Creating Feature groups with data source and feature information
+
+2) Kserve adapter
+        Deploy and manage AI models in Near-RT RIC/Non-RT RIC
+        Integrate Inference host with O-Cloud( RICDMS ) and Management Functions of RIC. 
+
+3) Training pipeline Enhancement
+        Provide sample pipelines by default
+
+4) AIMLFW feature enhancements
+        Options for edit, retrain and delete training jobs 
 
 
 
