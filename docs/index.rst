@@ -62,8 +62,6 @@ NONRTRIC H Release Functions:
         Started work on a new rApp Manager functions – more in next release
         LCM for rApps: Building on ONAP "Automation Composition" model & platform to implement rApp use cases
                 Added a 'KServe Participant'
-                        Inference Services in rApps
-                        Now supports KServe-based AI/ML rApps
                 Added an 'A1 Policy Participant'
         Overlap with Service Exposure work to examine role of an rApp Manager to support controlled access to and exposure of Services
         Overlap with Data Exposure work to examine role of an rApp Manager to support controlled access to and exposure of Data types
