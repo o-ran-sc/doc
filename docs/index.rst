@@ -7,7 +7,7 @@
 The O-RAN Software Community (SC) Documentation.
 
 
-Welcome to O-RAN SC F Release Documentation Home
+Welcome to O-RAN SC H Release Documentation Home
 ================================================
 
 O-RAN Alliance (https://www.o-ran.org/) members and contributors have committed to evolving Radio Access Networks (RAN) around the world. Future RANs will be built on a foundation of virtualized network elements, white-box hardware and standardized interfaces that fully embrace O-RAN’s core principles of intelligence and openness. An ecosystem of innovative new products is already emerging that will form the underpinnings of the multi-vendor, interoperable, autonomous RAN, envisioned by many in the past, but only now enabled by the global industry-wide vision, commitment and leadership of O-RAN Alliance members and contributors.
