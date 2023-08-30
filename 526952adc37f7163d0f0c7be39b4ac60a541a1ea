@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "46bd5529_c5a00c37",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000103
+      },
+      "writtenOn": "2023-08-30T10:49:42Z",
+      "side": 1,
+      "message": "Comment on release notes",
+      "revId": "526952adc37f7163d0f0c7be39b4ac60a541a1ea",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e192ef3e_75df4198",
+        "filename": "docs/release-notes.rst",
+        "patchSetId": 4
+      },
+      "lineNbr": 58,
+      "author": {
+        "id": 1000103
+      },
+      "writtenOn": "2023-08-30T10:49:42Z",
+      "side": 1,
+      "message": "This entire section (to end of page) is out of date and should be removed.",
+      "range": {
+        "startLine": 50,
+        "startChar": 0,
+        "endLine": 58,
+        "endChar": 195
+      },
+      "revId": "526952adc37f7163d0f0c7be39b4ac60a541a1ea",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    }
+  ]
+}
