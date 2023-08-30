@@ -41,8 +41,8 @@ For the H release of the near-RT RIC we do only limited integration testing: onl
 
 
 
-Non-Real-time RIC (A1 Interface) (NONRTRIC)
--------------------------------------------
+Non-Real-time RIC (A1 & R1 Interfaces) (NONRTRIC)
+-------------------------------------------------
 
 NONRTRIC H Release Functions:
 

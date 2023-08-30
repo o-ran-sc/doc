@@ -95,7 +95,7 @@ Anomaly Detection (AD) is an xApp in the Traffic Steering O-RAN use case.
 * :doc:`Anomaly Detection xApp Release-notes <ric-app-ad:release-notes>`
 
 
-This repository contains open-source code for a prototype HW-go xAPP for near real-time RAN Intelligent Controller which makes use of go Xapp Framework. 
+This repository contains open-source code for a prototype HW-go xAPP for near real-time RAN Intelligent Controller which makes use of go Xapp Framework.
 
 * :doc:`HW-go xAPP Release-notes <ric-app-hw-go:release-notes>`
 
