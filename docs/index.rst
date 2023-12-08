@@ -7,7 +7,7 @@
 The O-RAN Software Community (SC) Documentation.
 
 
-Welcome to O-RAN SC H Release Documentation Home
+Welcome to O-RAN SC I Release Documentation Home
 ================================================
 
 O-RAN Alliance (https://www.o-ran.org/) members and contributors have committed to evolving Radio Access Networks (RAN) around the world. Future RANs will be built on a foundation of virtualized network elements, white-box hardware and standardized interfaces that fully embrace O-RAN’s core principles of intelligence and openness. An ecosystem of innovative new products is already emerging that will form the underpinnings of the multi-vendor, interoperable, autonomous RAN, envisioned by many in the past, but only now enabled by the global industry-wide vision, commitment and leadership of O-RAN Alliance members and contributors.
@@ -15,199 +15,131 @@ O-RAN Alliance (https://www.o-ran.org/) members and contributors have committed 
 O-RAN SC is partnering with the O-RAN Alliance and Linux Foundation to support the software development for an open RAN solution that is available to everyone. The community will align with the architecture and specifications that are created in the O-RAN Alliance working groups to create a working software solution to enable an open and intelligent 5G RAN.
 
 
-New featuresin H release:
+New featuresin I release:
 
 Near-Real-time RIC X-APPs (RICAPP)
 ----------------------------------
 
-RICAPP H Release Feature Scope:
+RICAPP I Release Feature Scope:
 
 1) New HW-Rust xApp to support RUST framework.
 2) New ad-cell xApp to detect cell level anomaly.
-3) RC xApp - GRPC interface support on RC xApp
-4) Bouncer xApp - RIC Benchmarking new features addition.
-5) KPIMON-GO xApp – New Version
+3) New ccc xApp to support E2SM CCC.
 
 
 Near-Real-time RAN Intelligent Controller Platform (E2 Interface) (RICPLT)
 --------------------------------------------------------------------------
 
-RICPLT H Release Feature Scope:
+RICPLT I Release Feature Scope:
+Contributions related to E2 interfaces
+1) RIC-993 (CG): Near-RT RIC conflict management
+2) RIC-933 (CG) : Adding support for DU in E2T/E2M/RNIB
+3) RIC-967 (CG) xApp-facing interface for subscription delete required (added on 2023-08-23)
+4) RIC-994 (S): Support for E2APv3.0
+5) RIC-995 (S): Support for RIC Query
+6) RIC-996 (S) Support for Subscription modifications (dhiraj interested as reviewer)
+7) RIC-387 = ~RIC-383 (S): Support for E2 reset from RIC to RAN (completes also RIC-383) (prio1) (Dhiraj interested as reviewer, but we had earlier discussion on this) -
+8) RIC-997 (N): Handling of RIC Error indication _during_ E2 setup
+9) RIC-963 (GS) modify src code to be more lenient in ordering of IEs in ASN.1
 
-1) E2 reset (from E2 node to RIC), E2 subscription delete required, A1 policy status notifications
-2) Preparation of feature for I release, e.g., include xApps in subscription delete required decision
+Other contributions
+1) RIC-998 (S): K8S operators for deploying/undeploying xApps
+2) RIC-999=~RIC-972 (S): A1 alignment with A1AP (still under investigation. Minimum is using correct URL)
+3) RIC-954 (S): DMS Rest API support for deleting/undeploy xApps (DMS REST is 2nd ifc addressing same space as dmscli)
+4) Already in H: RIC-985 (UTFPR) IPv6 support for RMR 
+5) task: RIC-987 (UTFPR) interface binding in RMR
+6) RIC-705 (H) update xappframework for c++ to change in xApp registration
+7) RIC-1000 (R): Support for only-IPv6 in RIC-internal interfaces
+8) RIC-1004 (AG): Xapp Rust Framework enhancement after initial basic Xapp Framework Support
+9) RIC-1027 (S) K8S operators for deploying/undeploying Near-RT RIC
+10) RIC-950 implement test cases for xapp-frame-cpp
+11) RIC-853 Implement subscription delete in Bouncer and E2Sim
 
-For the H release of the near-RT RIC we do only limited integration testing: only the use cases: deploy RIC, deploy xApp, make E2 connection, get list of A1 policies has been tested.
+Support for Integration project's pairwise-testing goals
+1) ODU-high with near-RT RIC: moving from RIC stub to E2 messages with actual RIC
+2) RIC xApp and near-RT RIC: using KPIMon/bouncer xApp or maybe CCC xApp. Maybe xApps can also be used to demonstrate conflict detection
+3) non-RT RIC and near-RT RIC: providing standalone A1 mediator for CI testing of non-RT RIC.
 
 
 
-Non-Real-time RIC (A1 Interface) (NONRTRIC)
--------------------------------------------
+Non-Real-time RIC  (NONRTRIC)
+-----------------------------
 
-NONRTRIC H Release Functions:
+NONRTRIC I Release Functions:
 
-1) Consolidated & Improved RAN PM data exposure in new repo for RAN PM functions
-        Adds 4 new services for RAN PM processing
-        Lots of work on deployment scripts/charts, testing, CI, and documentation
-2) (R1) Service Exposure & Management (SME)
-        CAPIF Aligned Service Registry & Discovery
-        Continued work of Service execution platform extensions (K8s, Istio, Keycloak, OPA, Gateway) to enable and enforce service isolation & exposure
-        Controlled access & exposure of service to/from rApps
-3) (R1) Data Management & Exposure (DME)
-        Small updates to Information Coordination Service – studying alignment with R1 proposals
-        File-based PM data → Kafka/InfluxDB/Minio
-        Including parsing, filtering & delivery
-        ref. PM Data exposure above
-4) rApp Management
-        Started work on a new rApp Manager functions – more in next release
-        LCM for rApps: Building on ONAP "Automation Composition" model & platform to implement rApp use cases "KServe Participant" and "A1 Policy Participant"
-        Overlap with Service Exposure work to examine role of an rApp Manager to support controlled access to and exposure of Services
-        Overlap with Data Exposure work to examine role of an rApp Manager to support controlled access to and exposure of Data types
-5) Continued A1-Policy & A1-Enrichment-Information evolution (& R1-A1)
-        A1-Policy work in ONAP (continues in ONAP London) - candidate for R1-A1(P)
-        A1-EI management as part of DME - candidate for how to include A1-EI in R1-DME
-        ref. DME work above
-6) Demonstrated ASD-based CNF LCM
-        ONAP SO CNFM in standalone mode
-7) Sample use cases (rApps)
-        Requirements Drivers for rApp/R1 development
-8) Testing, Maintenance & Housekeeping
-        3PP update – esp. Springboot 3 & JDK 17
-        Function Test & Integration Test environment, lots of new test cases, and new ONAP L & OSC H test profiles
-        Continue integration, deployment & configuration of SMO/Non-RT-RIC related functions & usecases in OSC Integration environment.
-        Project coordination, Documentation, Delivery, Reporting, Cross-project alignment, Community demos, O-RAN Standardization support, etc.
+The Non-RealTime RIC (RAN Intelligent Controller) is an Orchestration and Automation function described by the O-RAN Alliance for non-real-time intelligent management of RAN (Radio Access Network) functions. The primary goal of the Non-RealTime RIC is to support non-real-time radio resource management, higher layer procedure optimization, policy optimization in RAN, and providing guidance, parameters, policies and AI/ML models to support the operation of near-RealTime RIC functions in the RAN to achieve higher-level non-real-time objectives. NONRTRIC functions include service and policy management, RAN analytics and model-training for the near-RealTime RICs. The Non-RealTime RIC project provides concepts, specifications, architecture and reference implementations as defined and described by the O-RAN Alliance architecture.
+
 
 
 OAM (O1 Interface)
 ------------------
 
-OAM H Release Feature Scope:
+OAM I Release Feature Scope:
 
-1) Updates according to O-RAN Operations and Maintenance Interface Specification 8.0 (O-RAN.WG10.O1-Interface.0-v08.00)    October 2022
-        Please see H-Release for further details
-2) Hardening the solution by introducing a "SMO-gateway".
-3) Add a FlowManagement Component.
+1) support of O-RAN WG10 VES message bodies
+2) support of O-RAN WG4 optional VES bodies
+3) update of OAM-Controller to ODL version Argon-SR1
+4) support of other O-rAN-SC projects (e.g. SMO, Non-RT-Ric, O-DU, INT) based on RSAC and other input.
+5) intergration of wireshark for api analysis
+6) integration of jenkins for test-automation
 
-
-
-O-RAN Central Unit (OCU)
-------------------------
-
-OCU H Release Feature Scope:
-
-1) Radisys Commercial CU is being used as a test fixture for E2E testing
-2) This is containerized CU image with following
-	Release version 2.5.3
-	NG interface with SOCKET mode and veth type
-	F1 interface with SOCKET mode and veth type
-	E2 interface support
-	Software Crypto
 
 
 O-DU High
 ---------
 
-O-DU High H Release Feature Scope:
+O-DU High I Release Feature Scope:
 
-1) Odu High interfaces alignment to the latest specification & New design with multi-scheduler algorithm support
-        Status: Completed
-        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-488
-2) Integration of ODU-High with intel L1
-        Status: Spread over multiple releases, to be continued in the next release
-        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-475
-3) Inter CU Handover
-        Status: Completed
-        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-463
-4) E2 interface enhancement
-        Status: Completed
-        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-510
+1) Alignment to latest ORAN WG8 AAD specification O-RAN.WG8.AAD.0-R003-v09.00
+2) Alignment to E2 interface specifications O-RAN.WG3.E2AP-R003-v03.00
+3) Multi UE (max=2) scheduling per TTI in scheduler
+4) Integration of ODU-High with intel L1
+5) XML based input configuration
 
 
 
 O-DU Low
---------
+------------
 
-O-DU Low H Release Feature Scope:
+O-DU Low I Release Feature Scope:
 
-The O-DU Low H release is the same as the F Release and G Release that added support for Massive MIMO, URLLC and it is based on the commercial FlexRan 21.11 release.  
-
-The O-DU Low H, G and F Release code is an Intel contribution in collaboration with Tieto Poland for the source code releases in the O-RAN gerrit and for the binary blobs contributed via GitHub.
-
-For the documentation preparation of the H, F and G release Intel worked with collaboration from Fransiscus Bimo and Professor Ray-Guang Cheng from National Taiwan University of Science and Technology (NTUST).  
-
-The H, G and F release are being used for end to end testing and it is based on the E maintenance release that was used for the 2021 November US O-RAN Plugfest and tested in conjuction with 2 stack partners and 2 different Test equipment vendors. The Front Haul Interface was also tested for compliance using Keysight's Front Haul Test equipment.
-
-Container images and deployment instructions are to be provided later
-
-
-
-Simulators (SIM)
-----------------
-
-SIM H Release Feature Scope:
-
-1) Updated simulated O-RU YANG models according to latest release (March 2023) OpenFronthaul Management Plane specification
-2) Implement the Monitoring NETCONF connectivity feature for the O-RUs, according to chapter 6.7 (Monitoring NETCONF connectivity) in O-RAN.WG4.MP.0-R003-v11.00
-3) Created a mechanism to locally build simulated O-DU with 3GPP YANG models
-4) No new contributions for the E2 Simulator
+H release includes a patch to our previous F & G Releases with a fix for a PRACH detection bug found by LNT.
 
 
 
 Infrastructure (INF)
 --------------------
 
-INF H Release Feature Scope:  
+INF I Release Feature Scope:  
 
-1) Enable the 2 AIO severs with additional worker nodes deployment scenario
-2) Major components upgrade
-3) Implement the O2 interface as the MVP
-
-
-
-Integration and Test (INT)
---------------------------
-
-INT H Release Feature Scope: 
-
-1) Convert existing RICPLT/RICAPP Robot test cases in it/test repo to be executed with XTesting, which should automate the deployment of RIC platform, onboarding an xApp, and execute test cases all together.
-2) Wind River may contribute XTesting test cases on the o2 repo
-3) Specific to the Asia Pacific Open Lab:
-        Completing E2 setup procedure between OSC Near-RT RIC and OAI gNb.
-        Incorporate E2AP v2 in OAI CU for connection between OAI CU and OSC Near-RT RIC.
-        Verify data exchange between netconf and ves between OAI CU and OSC SMO.
-        Testing C-plane in F1 interface connection between OAI CU and OSC DU.
+1) Support integration between INF as O-Cloud with other o-ran-sc components.
+2) Support deploy ETSI-DMS (tacker) on INF O-Cloud.
+3) Extend multi arch support: add support for ARM64 on Debian based OS.
+4) Aligned INF O2 implementation to the O-RAN Spec 4.0
 
 
 
 Service Management and Orchestration  (SMO)
 -------------------------------------------
 
-SMO H Release Feature Scope: 
+SMO I Release Feature Scope: 
 
-1) Automated API Conformance testing
-2) Alignment with O-RAN O2 DMS ETSI NFV Profile.
-3) Refresh SDNR image to the latest on SMO O1 project.
+
+The container images for SMO can be found on the Nexus server, where applicable.
+The container images for OpenStack Tacker can be found in OpenStack Kolla repository.
+The OpenStack Tacker container can be started with the steps in the following documentation.
+The installation instructions for SMO can be found in the documentation page
 
 
 
 AI/ML Framework
 ---------------
 
-AI/ML Framework H Feature Scope:
+AI/ML Framework I Feature Scope:
 
-1) Diversify training data source for Training host
-        Obtaining training data from DME in Non-RT RIC 
-        Creating Feature groups with data source and feature information
-
-2) Kserve adapter
-        Deploy and manage AI models in Near-RT RIC/Non-RT RIC
-        Integrate Inference host with O-Cloud( RICDMS ) and Management Functions of RIC. 
-
-3) Training pipeline Enhancement
-        Provide sample pipelines by default
-
-4) AIMLFW feature enhancements
-        Options for edit, retrain and delete training jobs 
+1) Model management services aligning with O-RAN alliance WG2.
+2) Dynamic selection of multiple data sources for training.
+3) Automatically recover AIMLFW after VM restart without need for reinstall. 
 
 
 
