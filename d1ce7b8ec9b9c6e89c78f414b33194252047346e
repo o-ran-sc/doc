@@ -16,6 +16,24 @@
       "message": "Let\u0027s use latest version (22.04) as in the file above if there is no particular restriction",
       "revId": "d1ce7b8ec9b9c6e89c78f414b33194252047346e",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "8c2b9766_e84e4dc7",
+        "filename": "doc-templates/repo-root-dir-files/.readthedocs.yaml",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1001460
+      },
+      "writtenOn": "2023-12-15T22:43:53Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "452e3329_26bd0cbe",
+      "revId": "d1ce7b8ec9b9c6e89c78f414b33194252047346e",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ]
 }
