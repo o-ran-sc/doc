@@ -20,6 +20,23 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "e2681a52_583693d6",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000103
+      },
+      "writtenOn": "2023-12-18T14:26:34Z",
+      "side": 1,
+      "message": "The comment was not addressed. \nCan you have another look at it? \nThanks.",
+      "revId": "526952adc37f7163d0f0c7be39b4ac60a541a1ea",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "e192ef3e_75df4198",
         "filename": "docs/release-notes.rst",
         "patchSetId": 4
