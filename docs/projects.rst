@@ -83,7 +83,6 @@ More detailed function documentation can be found as follow:
 * :doc:`TR069 Adapter <oam-tr069-adapter:index>`
 
 
-
 O-RAN Central Unit (OCU)
 ------------------------
 The OCU is target an initial software deliverable with limited functionality. Focus on a basic E2 interface to enable initial integration testing between RIC and OCU.
@@ -153,6 +152,7 @@ The SMO project implements the O1 and the O1/VES interface. The former is used f
 
 More detailed function documentation can be found as follow:
 
+* :doc:`SMO-TEIV <smo-teiv:index>`
 * :doc:`SMO-VES <smo-ves:index>`
 * :doc:`SMO O1 <smo-o1:index>`
 * :doc:`SMO O2 <smo-o2:index>`

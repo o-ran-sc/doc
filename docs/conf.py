@@ -95,6 +95,7 @@ intersphinx_mapping['it-otf'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-it
 
 
 #SMO
+intersphinx_mapping['smo-teiv'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-smo-teiv/en/%s' % branch, None)
 intersphinx_mapping['smo-ves'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-smo-ves/en/%s' % branch, None)
 intersphinx_mapping['smo-o1'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-smo-o1/en/%s' % branch, None)
 intersphinx_mapping['smo-o2'] = ('https://docs.o-ran-sc.org/projects/o-ran-sc-smo-o2/en/%s' % branch, None)
