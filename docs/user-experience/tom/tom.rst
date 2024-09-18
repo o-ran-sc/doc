@@ -2,7 +2,6 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. Copyright (C) xxxxxx
 
-.. index rst file
 
 
 Tom experience

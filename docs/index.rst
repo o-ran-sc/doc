@@ -165,10 +165,10 @@ User experience
 user experience introduction
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-   
-   user-experience/tom-experience.rst
+   :maxdepth: 1
+
+   user-experience/index.rst
+
 
 
 Indices
