@@ -61,13 +61,14 @@ More detailed function documentation can be found as follow:
 
 Non-RealTime RAN Intelligent Controller (NONRTRIC)
 --------------------------------------------------
-Non-RT RIC focus on feature functionality of A1-interface (consumer and provider), and closed-loop use cases. The Non-RT RIC project will also work together with the OAM project to align activities on a case-by-case base for O1 interfaces. Project should focus on use cases supported in ONAP. The work should be sponsored in O-RAN and initial code contributions in O-RAN SC. Interoperability with ONAP should be aligned between the standards and will follow initial contributions in this project.
+The O-RAN Non-RT RIC provides functionality for the A1-interface, R1-interface, and closed-loop use cases. The O-RAN SC NONRTRIC project works together with the OAM project, SMO project, AI/ML FW project and SIM project to align activities for O1 & O2 interfaces, and to provide consolidated SMO functionality. The Non-RT RIC project also provides capabilities to support rApps (Non-RT RIC Apps) and the R1 Interface. 
 
 More detailed function documentation can be found as follow:
 
-* :doc:`A1 Interface Simulator <sim-a1-interface:index>`
 * :doc:`Non-RT RIC Components <nonrtric:index>`
+* :doc:`A1 Interface Simulator <sim-a1-interface:index>`
 * :doc:`Non-RT RIC Control Panel <nonrtric-controlpanel:index>`
+
 
 
 Operations and Maintenance (OAM)
