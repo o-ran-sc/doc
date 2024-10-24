@@ -11,7 +11,7 @@ User experience
 .. toctree::
    :maxdepth: 1
 
-   tom/tom.rst
+   iosmcn/iosmcn.rst
 
 
 
