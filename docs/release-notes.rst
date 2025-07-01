@@ -53,6 +53,9 @@ Version history
 | 2024-12-19         | K                  | CMCC               | K Release          |
 |                    |                    |                    |                    |
 +--------------------+--------------------+--------------------+--------------------+
+| 2025-6-30          | L                  | CMCC               | L Release          |
+|                    |                    |                    |                    |
++--------------------+--------------------+--------------------+--------------------+
 
 
 
@@ -301,10 +304,6 @@ SMO-O2 repository is for the implementation, installation, and use of the O2 int
 
 * :doc:`SMO-O2 Release-notes <smo-o2:release-notes>`
 
-
-.. Simulations(SIM) Amber release features contain:
-
-.. * :doc:`SIM/O1-Interface Release-notes <sim-o1-interface:release-notes>`
 
 
 
