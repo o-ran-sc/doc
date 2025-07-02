@@ -307,9 +307,42 @@ SMO-O2 repository is for the implementation, installation, and use of the O2 int
 
 
 
+AIML Framework (AIMLFW)
+^^^^^^^^^^^^^^^^^^^^^^^
 
+The AI/ML Framework is stand alone installation (separated from existing platform deployment) and initial AIML workflow modules.
 
+AIMLFW Training manager module is responsible for Training job and model management.
 
+* :doc:`AIMLFW Training manager Release-notes <aiml-fw-awmf-tm:release-notes>`
+
+AIMLFW Dashboard module is responsible for providing a dashboard where user can create AI/ML training jobs and AI/ML training pipelines.
+
+* :doc:`AIMLFW Dashboard Release-notes <portal-aiml-dashboard:release-notes>`
+
+AIMLFW Data Extraction module is responsible for data extraction and storing the data as features in a feature store for AI/ML Training.
+
+* :doc:`AIMLFW Data Extraction Release-notes <aiml-fw-athp-data-extraction:release-notes>`
+
+AIMLFW Feature Store SDK module module is responsible for providing functionality to retrieve features from feature store during training.
+
+* :doc:`AIMLFW Feature Store SDK Release-notes <aiml-fw-athp-sdk-feature-store:release-notes>`
+
+AIMLFW Model Storage SDK module is responsible for providing functionality to store and retrieve models from model storage.
+
+* :doc:`AIMLFW Model Storage SDK Release-notes <aiml-fw-athp-sdk-model-storage:release-notes>`
+
+AIMLFW Kubeflow adapter module is responsible for providing connectivity to Kubeflow for creating AI/ML training pipelines and executing AI/ML training jobs.
+
+* :doc:`AIMLFW Kubeflow adapter Release-notes <aiml-fw-athp-tps-kubeflow-adapter:release-notes>`
+
+AIMLFW Installation and Deployment repository provides required installation scripts for deployment of AIMLFW.
+
+* :doc:`AIMLFW Installation and Deployment Release-notes <aiml-fw-aimlfw-dep:release-notes>`
+
+QoE Prediction assist xApp(ric-app-qp-aimlfw) is an xApp that supports QoE Prediction on the AIMLFW, and an xApp of the Traffic Steering O-RAN usecase. The difference from the existing QoE Prediction(ric-app-qp) is that the function to interact with the MLxApp of AIMLFW is added and the inference function is removing.
+
+* :doc:`QoE Prediction assist xApp Release-notes <ric-app-qp-aimlfw:release-notes>`
 
 
 
