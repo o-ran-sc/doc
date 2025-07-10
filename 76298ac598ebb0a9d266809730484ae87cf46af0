@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9bee13f5_bc5971cb",
+        "filename": "docs/architecture/architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000103
+      },
+      "writtenOn": "2025-07-10T15:11:52Z",
+      "side": 0,
+      "message": "Many of the descriptions below are no longer accurate.",
+      "range": {
+        "startLine": 6,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 2
+      },
+      "revId": "76298ac598ebb0a9d266809730484ae87cf46af0",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "1e189a6c_80ca0230",
+        "filename": "docs/architecture/architecture.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 1000103
+      },
+      "writtenOn": "2025-07-10T15:11:52Z",
+      "side": 0,
+      "message": "This image is VERY old and should be replaced by a more recent version. e.g. O-RAN.WG1.TS.OAD-R004-v13.00",
+      "revId": "76298ac598ebb0a9d266809730484ae87cf46af0",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    }
+  ]
+}
