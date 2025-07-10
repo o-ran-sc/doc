@@ -200,7 +200,7 @@ xapp-frame is a simple framework for rapid development of RIC xapps, and support
 Non-RealTime RAN Intelligent Controller (NONRTRIC) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In Bronze release, Non-RT RIC containes Policy Agent, Control Panel and A1 Simulator. 
+The NONRTRIC project provides implementations for Non-RealTime-RIC (Non-RT RAN Intelligent Controller) functions as part of the SMO (Service Management & Orchestration) layer. More information can be found in the NONRTRIC project documentation. 
 
 * :doc:`Non-RT RIC Release-notes <nonrtric:release-notes>`
 
@@ -291,6 +291,10 @@ IT-DEV includes the initial commit of the OTF platform code. Applications includ
 
 Service Management and Orchestration (SMO) features
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SMO TEIV repository provides models, APIs and service implementations for Topologiy Exposure and Inventory functions. Topology Exposure & Inventory manages the representation of topology and inventory resources in a suite of evolving vendor-agnostic data models to share and operate on a common view of the topology. 
+
+* :doc:`SMO TEIV Release-notes <smo-teiv:release-notes>`
 
 SMO O1 repository is for the implementation, installation, and use of the O1 interface of SMO. It uses the Software Defined Netowrk (SDN) Controller for Radio (SDNR) to implement the O1 interface. The software comes in the form of Docker containers that are setup using docker-compose.
 

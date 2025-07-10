@@ -149,7 +149,8 @@ More detailed function documentation can be found as follow:
 
 Service Managerment and Orgestration(SMO)
 -----------------------------------------
-The SMO project implements the O1 and the O1/VES interface. The former is used for configuration and management of RAN Network Functions (NF) while the latter collects all the events that are reported by different RAN NFs.
+The SMO project implements the O1, O1/VES, and O2 interfaces. The O1 interface (incl. O1-VES) is for observation, configuration and management of RAN Network Functions (NFs). The O2 functions are responsible for managing all aspects of O-Clouds and O-Cloud workloads. 
+The SMO project also contains functions for Topology Exposure & Inventory (TEIV).
 
 More detailed function documentation can be found as follow:
 

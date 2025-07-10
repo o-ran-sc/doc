@@ -135,6 +135,8 @@ Service Management and Orchestration  (SMO)
 
 SMO L Release Feature Scope: 
 
+Improve Topology Exposure & Inventory (TEIV) models & functionality. 
+
 Improve O2 DMS ETSi profile.
 
 improve the NFO K8s profile integration with OSC-INF.
