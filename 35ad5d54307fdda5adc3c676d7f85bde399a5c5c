@@ -33,6 +33,23 @@
       "message": "ready for merge?",
       "revId": "35ad5d54307fdda5adc3c676d7f85bde399a5c5c",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c9b73c23_c0a131a5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000103
+      },
+      "writtenOn": "2025-07-31T13:31:39Z",
+      "side": 1,
+      "message": "Note: Still outstanding comments in https://gerrit.o-ran-sc.org/r/c/doc/+/14709/1/docs/architecture/architecture.rst",
+      "revId": "35ad5d54307fdda5adc3c676d7f85bde399a5c5c",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ]
 }
