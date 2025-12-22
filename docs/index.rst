@@ -7,7 +7,7 @@
 The O-RAN Software Community (SC) Documentation.
 
 
-Welcome to O-RAN SC L Release Documentation Home
+Welcome to O-RAN SC M Release Documentation Home
 ================================================
 
 O-RAN Alliance (https://www.o-ran.org/) members and contributors have committed to evolving Radio Access Networks (RAN) around the world. Future RANs will be built on a foundation of virtualized network elements, white-box hardware and standardized interfaces that fully embrace O-RAN’s core principles of intelligence and openness. An ecosystem of innovative new products is already emerging that will form the underpinnings of the multi-vendor, interoperable, autonomous RAN, envisioned by many in the past, but only now enabled by the global industry-wide vision, commitment and leadership of O-RAN Alliance members and contributors.
@@ -15,42 +15,46 @@ O-RAN Alliance (https://www.o-ran.org/) members and contributors have committed 
 O-RAN SC is partnering with the O-RAN Alliance and Linux Foundation to support the software development for an open RAN solution that is available to everyone. The community will align with the architecture and specifications that are created in the O-RAN Alliance working groups to create a working software solution to enable an open and intelligent 5G RAN.
 
 
-New features in L release:
+New features in M release:
 
 Near-Real-time RIC X-APPs (RICAPP)
 ----------------------------------
 
-RICAPP L Release Feature Scope:
+RICAPP M Release Feature Scope:
 
-Expand & maintain the community on open source xApps for O-RAN SC. 
-
-Update and maintain the existing xApps to latest releases (currently L Release).
-
-Enhance the set of open source xApps in support of the RSAC use cases and add new xApps. 
+Maintain existing xApp's to the M Release
 
 
 
 Near-Real-time RAN Intelligent Controller Platform (E2 Interface) (RICPLT)
 --------------------------------------------------------------------------
 
-RICPLT L Release Feature Scope:
+RICPLT M Release Feature Scope:
 
-Couple of bugs needs to  be fixed at xApp side that was found during the e2 testing while supporting the comparison of different RIC in the open source - Moved to next release.
-
-Conflict Manager Phase1 is not yet released. Integration with CI is pending - Moved to Next release.
+Near RealTime RIC container images are using ubuntu 22.04 as the base OS. The golang version also upgraded to 1.22.x. 
 
 
 
 Non-Real-time RIC  (NONRTRIC)
 -----------------------------
 
-NONRTRIC L Release Highlights:
+NONRTRIC M Release Highlights:
 
-Big push to improve SMO integration - with updated version of a fully integrated SMO deployment blueprint
+Continue push to improve SMO integration - with updated version of a fully integrated SMO deployment blueprint (See Integration & Test project below) 
 
-Small functional improvement in component functions to rectify issues and support integration activities
+Pre-built/tested version of SMO Integration Charts & Scripts available
 
-Good improvement in Service Manager & RANPM functions to improve robustness and specification compliance.
+Improved Topology Exposure & Inventory (TEIV) functions, models & APIs. Expand TEIV data ingestion adapters (See SMO project below) 
+
+Maintained/Supported existing NONRTRIC/SMO platform functions 
+
+Continued development & improvement of SMO/NONRTRIC/rApp use cases
+
+Improved robustness and specification compliance.
+
+Improved Testing & End-to-end Integration
+
+Assisted in Jenkins → GHA migration
 
 
 
@@ -59,15 +63,11 @@ Operation and Maintenance(OAM)
 
 O-DU High L Release Feature Scope:
 
-Simplification of deployment by removing ONAP DMaaP
+update of OAM-Controller to OpenDaylight version Scandium-SR2
 
-Integration of fail based PM in docker compose deployment.
+moving OAM-controller to JDK21 (OpenJDK 64-Bit Server VM version 21.0.5+11-LTS)
 
-Integration of grafana into user management solution by keycloak
-
-Status information within topology
-
-updates of images used in docker-compose deployments to reduce CVEs in deployments
+change CD/CI pipeline (build, test, deploy, publish) from Jenkins to GithubActions (thanks also the @Matt Watkins for outstanding support)
 
 
 
@@ -75,67 +75,54 @@ updates of images used in docker-compose deployments to reduce CVEs in deploymen
 O-DU High
 ---------
 
-O-DU High L Release Feature Scope:
+O-DU High M Release Feature Scope:
 
-End-to-end integration
+Integration of ODU-High with intel L1
 
-	SIb1 parameter testing on going post Test mac synchronization with TM500 in NTUST lab
+        Status: Spread over multiple releases
+
+        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-475
 
 OSC-OAI Collaboration
 
-	OAI L1 communication with ODU-High is now active.
+        Status: Spread over multiple releases
 
-	OAI-CU can also be executed with ODU-High.
+        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-557
 
-	ODU-High with OAI-L1 works till MSG2. There are few known issues to be resolved after ODU-High sends MSG2 to OAI-L1.
-
-Adapting to New ASN.1 encoder decoder
-
-	New ASN.1 encoder decoder generated codec_utils merged in the main branch
-
-
-
-O-DU Low
---------
-
-O-DU Low L Release Feature Scope:
-
-Improve O2 DMS ETSi profile
-
+        
 
 
 Simulators (SIM)
 ----------------
 
-O-DU Low L Release Feature Scope:
+O-DU Low M Release Feature Scope:
 
-Implemented a new Python version for the simulated O-RU and simulated O-DU.
+Stabilized the new Python version for the simulated O-RU and simulated O-DU
 
-Aligned YANG models for O1 and OpenFronthaul M-Plane with November 2024 train (O-RAN.WG4.MP.0-R004-v16.01)
+Minor bug fixes
 
-Implemented hybrid and hierarchical O-RU simulators. Simulated O-DUs can accept connections from O-RUs.
+Kept alignment for O1 and OpenFronahaul M-Plane YANG models with November 2024 train (O-RAN.WG4.MP.0-R004-v16.01)
+
 
 
 
 Infrastructure (INF)
 --------------------
 
-INF L Release Feature Scope:  
+INF M Release Feature Scope:  
 
-Update INF StarlingX O-Cloud to aligned with StarlingX 10.0
+Update INF StarlingX O-Cloud to aligned with StarlingX 11.0
 
 Update O2 implementation to aligned with new Spec
 
-Add multi-node support for OKD O-Cloud
+Update the support for OKD O-Cloud
 
 
 
 Service Management and Orchestration  (SMO)
 -------------------------------------------
 
-SMO L Release Feature Scope: 
-
-Improve Topology Exposure & Inventory (TEIV) models & functionality. 
+SMO M Release Feature Scope: 
 
 Improve O2 DMS ETSi profile.
 
@@ -143,49 +130,44 @@ improve the NFO K8s profile integration with OSC-INF.
 
 
 
+
 Integration(INT)
 ----------------
 
-O-DU Low L Release Feature Scope:
+O-DU Low M Release Feature Scope:
 
-Standardize Kubernetes Test Environment Script for Integration Projects
 
-SMO + Non-RT RIC + OAM deployment
+Integration of SMOs + NON-RT RIC + OAM + AIMLFW
 
-AIMLFW Deployment
+        Goal: Deployment of projects in a single cluster
 
+        Epic: INT-183: Integration of SMOs + NON-RT RIC + OAM + AIMLFW in a single k8s cluster
+ 
+
+CICD  deployment on COSMOS Lab
+
+        Goal: Automate deployment testing for SMOs + NON-RT RIC + OAM + AIMLFW
+
+        Epic: INT-182: Implement Parallel Platform Deployment to COSMOS Lab via GitHub Actions
+
+Version control of ODU Integration code
+
+        Goal: Manage ODU Integration code changes to be more efficient
+
+        Epic: TBD
 
 
 
 AI/ML Framework
 ---------------
 
-AI/ML Framework L Release Feature Scope:
+AI/ML Framework M Release Feature Scope:
 
-New repository has been added to provide SDK for pipeline preparation
+Kubernetes upgrade to v1.32.8 successfully completed, establishing a stable foundation for the upcoming M-release. (AIMLFW-298)
 
-Four reusable component has been introduced:
+Container runtime and networking stack modernized with upgrades to Containerd, Nerdctl, Buildkit, and Calico, ensuring full compatibility with the new Kubernetes version. (AIMLFW-300, AIMLFW-299)
 
-	feature extraction
-
-	model training
-
-	model storage
-
-	model metrics storage
-
-Model storage SDK enhanced to exchange data between components
-
-Error Handling for responses as per the specification
-
-Fix APIs for fetching and storing model metrics
-
-Fix external model upload
-
-Model storage SDK could be executed in standalone mode (without kubernetes)
-
-Abstraction for different storage mechanism has been added to model storage SDK 
-
+Critical installation issues resolved for components such as InfluxDB, Cassandra, PostgreSQL, and Helm charts, significantly improving system reliability. (AIMLFW-279, 278, 248, 245
 
 
 Please find some guidance here on the content of O-RAN SC documentation.
