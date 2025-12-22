@@ -1,6 +1,6 @@
 ﻿.. This work is licensed under a Creative Commons Attribution 4.0 International License.
 .. SPDX-License-Identifier: CC-BY-4.0
-.. Copyright (C) 2019 CMCC
+.. Copyright (C) CMCC
 
 .. _oran_master_doc:
 
@@ -10,9 +10,33 @@ The O-RAN Software Community (SC) Documentation.
 Welcome to O-RAN SC M Release Documentation Home
 ================================================
 
-O-RAN Alliance (https://www.o-ran.org/) members and contributors have committed to evolving Radio Access Networks (RAN) around the world. Future RANs will be built on a foundation of virtualized network elements, white-box hardware and standardized interfaces that fully embrace O-RAN’s core principles of intelligence and openness. An ecosystem of innovative new products is already emerging that will form the underpinnings of the multi-vendor, interoperable, autonomous RAN, envisioned by many in the past, but only now enabled by the global industry-wide vision, commitment and leadership of O-RAN Alliance members and contributors.
 
-O-RAN SC is partnering with the O-RAN Alliance and Linux Foundation to support the software development for an open RAN solution that is available to everyone. The community will align with the architecture and specifications that are created in the O-RAN Alliance working groups to create a working software solution to enable an open and intelligent 5G RAN.
+About O-RAN Software Community (SC) 
+-----------------------------------
+
+Who We Are
+~~~~~~~~~~
+The O-RAN Software Community (SC) is a collaboration between the O-RAN Alliance and the Linux Foundation with the mission to support the creation of software for the Radio Access Network (RAN). The RAN is the next challenge for the open source community. The O-RAN SC plans to leverage other LF network projects while addressing the challenges in performance, scale, and 3GPP alignment.
+
+Mission
+~~~~~~~
+Manage all software development, code storage, tooling, and developer integration testing aligned with the architecture specified by the O-RAN Alliance.
+
+Vision
+~~~~~~
+The telecom industry is experiencing a profound transformation, and 5G is expected to radically change how we live, work, and play. It’s critical to make network infrastructure commercially available quickly to ensure business success for operators. Turning to open source is one of the most efficient ways to accelerate product development collaboratively and cost-efficiently.
+
+The O-RAN Software Community aligns with the O-RAN Alliance’s open architecture and specifications to achieve industry deployment solutions. Sponsored by the O-RAN Alliance, this new open source community under the Linux Foundation will develop modular, open, intelligent, efficient, and agile disaggregated radio access networks.
+
+Get Involved
+~~~~~~~~~~~~
+You can get started by joining the mailing list and Technical Oversight Community (TOC) meetings.
+
+Project Scope & Goals
+~~~~~~~~~~~~~~~~~~~~~
+Software development, documentation, testing, and integration.
+Coordinate with related open source software projects and standards communities.
+Align with O-RAN architecture.
 
 
 New features in M release:
