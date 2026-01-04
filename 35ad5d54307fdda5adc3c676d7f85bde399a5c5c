@@ -50,6 +50,40 @@
       "message": "Note: Still outstanding comments in https://gerrit.o-ran-sc.org/r/c/doc/+/14709/1/docs/architecture/architecture.rst",
       "revId": "35ad5d54307fdda5adc3c676d7f85bde399a5c5c",
       "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4cb36f5f_de6f1154",
+        "filename": "docs/projects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 152,
+      "author": {
+        "id": 1000060
+      },
+      "writtenOn": "2026-01-04T15:37:41Z",
+      "side": 1,
+      "message": "O1/VES is O1 - which is explained in the next sentence. I suggest to remove \", O1/VES\"",
+      "revId": "35ad5d54307fdda5adc3c676d7f85bde399a5c5c",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7a9c72d0_f0043990",
+        "filename": "docs/projects.rst",
+        "patchSetId": 1
+      },
+      "lineNbr": 154,
+      "author": {
+        "id": 1000060
+      },
+      "writtenOn": "2026-01-04T15:37:41Z",
+      "side": 1,
+      "message": "Maybe a note is helpful about the A1 and R1 interfacing, which is not part of O-RAN-SC SMO project but O-RAN-SC NonRtRic Project. Just to complete the important SMO interfaces defined by O-RAN Alliance.",
+      "revId": "35ad5d54307fdda5adc3c676d7f85bde399a5c5c",
+      "serverId": "84e4e190-e623-4c37-9eda-58b1937c1b53"
     }
   ],
   "submitRequirementResults": [
