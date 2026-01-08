@@ -85,7 +85,7 @@ Assisted in Jenkins → GHA migration
 Operation and Maintenance(OAM)
 ------------------------------
 
-O-DU High L Release Feature Scope:
+O-DU High M Release Feature Scope:
 
 update of OAM-Controller to OpenDaylight version Scandium-SR2
 
