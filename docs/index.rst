@@ -38,6 +38,10 @@ Software development, documentation, testing, and integration.
 Coordinate with related open source software projects and standards communities.
 Align with O-RAN architecture.
 
+.. image:: marchitecture/medi/o-ran-sc-Architecture Diagram.png
+    :scale: 40 %
+
+
 
 New features in M release:
 
@@ -191,7 +195,6 @@ Please find some guidance here on the content of O-RAN SC documentation.
    :maxdepth: 2
    :caption: Contents:
 
-   architecture/architecture.rst
    license.rst
    release-notes.rst
    projects.rst
@@ -206,6 +209,7 @@ Here are some O-RAN SC user experience
    :maxdepth: 1
 
    user-experience/index.rst
+
 
 
 
