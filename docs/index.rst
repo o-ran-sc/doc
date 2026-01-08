@@ -101,18 +101,9 @@ O-DU High
 
 O-DU High M Release Feature Scope:
 
-Integration of ODU-High with intel L1
+Integration of ODU-High with intel L1, spread over multiple releases
 
-        Status: Spread over multiple releases
-
-        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-475
-
-OSC-OAI Collaboration
-
-        Status: Spread over multiple releases
-
-        Epic: https://jira.o-ran-sc.org/browse/ODUHIGH-557
-
+OSC-OAI Collaboration, spread over multiple releases
         
 
 
